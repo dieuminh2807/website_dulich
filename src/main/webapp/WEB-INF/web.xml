@@ -1,0 +1,136 @@
+<web-app
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://java.sun.com/xml/ns/javaee"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+        id="Your_WebApp_ID"
+        version="2.5">
+    <display-name>Archetype Created Web Application</display-name>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.css</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.jpg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.js</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>index</servlet-name>
+        <servlet-class>IndexServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>index</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>xylydangnhap</servlet-name>
+        <servlet-class>XuLyDangNhap</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>xylydangnhap</servlet-name>
+        <url-pattern>/xulydangnhap</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>xulydangxuat</servlet-name>
+        <servlet-class>XuLyDangXuat</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>xulydangxuat</servlet-name>
+        <url-pattern>/dangxuat</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>XuLyDangKy</servlet-name>
+        <servlet-class>XuLyDangKy</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>XemChiTietTour</servlet-name>
+        <url-pattern>/xemchitiettour</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>XemChiTietTour</servlet-name>
+        <servlet-class>HienThiChiTietTour</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>khachhangdattour</servlet-name>
+        <url-pattern>/kdattour</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>khachhangdattour</servlet-name>
+        <servlet-class>KhachDatTour</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>khachhangtimkiem</servlet-name>
+        <url-pattern>/ktimkiem</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>khachhangtimkiem</servlet-name>
+        <servlet-class>TimKiem</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>XuLyDangKy</servlet-name>
+        <url-pattern>/xulydangky</url-pattern>
+    </servlet-mapping>
+
+
+    <!-- servlet mapping for admin pages -->
+    <servlet>
+        <servlet-name>xulydangnhapadmin</servlet-name>
+        <servlet-class>admin.XyLyDangNhapAdmin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>xulydangnhapadmin</servlet-name>
+        <url-pattern>/admin/xulydangnhapadmin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>xulydangxuatadmin</servlet-name>
+        <servlet-class>admin.XuLyDangXuat</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>xulydangxuatadmin</servlet-name>
+        <url-pattern>/admin/xulydangxuatadmin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>xulyloaitour</servlet-name>
+        <servlet-class>admin.XuLyLoaiTour</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>xulyloaitour</servlet-name>
+        <url-pattern>/admin/xulyloaitour</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>xulychitiettour</servlet-name>
+        <servlet-class>admin.XuLyChiTietTour</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>xulychitiettour</servlet-name>
+        <url-pattern>/admin/xulychitiettour</url-pattern>
+    </servlet-mapping>
+
+
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <page-encoding>UTF-8</page-encoding>
+        </jsp-property-group>
+    </jsp-config>
+</web-app>
