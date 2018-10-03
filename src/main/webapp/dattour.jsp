@@ -48,7 +48,7 @@
 <tbody>
 <tr>
     <td>Họ & Tên (*)
-        <input type = text placeholder="Họ & Tên">
+        <input type = text placeholder="Họ & Tên   ">
     </td>
     <td>Địa chỉ
         <input type = text placeholder="Địa chỉ">
