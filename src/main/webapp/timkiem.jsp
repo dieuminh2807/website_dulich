@@ -14,9 +14,9 @@
                                          alt="Card image cap">
                                     <div class="card-body">
                                         <h5 class="card-title" style="min-height: 50px">${tour.tenTour}</h5>
-                                        <p class="card-text">${tour.giave}</p>
+                                        <p class="card-text">${tour.giave} VNĐ</p>
                                         <a href="/xemchitiettour?matour=${tour.maTourdb}" class="btn btn-primary">Xem chi
-                                            tiet</a>
+                                            tiết</a>
                                     </div>
                                 </div>
                             </div>

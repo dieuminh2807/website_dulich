@@ -5,27 +5,20 @@
         id="Your_WebApp_ID"
         version="2.5">
     <display-name>Archetype Created Web Application</display-name>
+
+    <welcome-file-list>
+        <welcome-file>indexpath</welcome-file>
+    </welcome-file-list>
+
     <servlet-mapping>
-        <servlet-name>default</servlet-name>
-        <url-pattern>*.css</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>default</servlet-name>
-        <url-pattern>*.jpg</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>default</servlet-name>
-        <url-pattern>*.js</url-pattern>
+        <servlet-name>indexServlet</servlet-name>
+        <url-pattern>/indexpath</url-pattern>
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>index</servlet-name>
+        <servlet-name>indexServlet</servlet-name>
         <servlet-class>IndexServlet</servlet-class>
     </servlet>
-    <servlet-mapping>
-        <servlet-name>index</servlet-name>
-        <url-pattern>/</url-pattern>
-    </servlet-mapping>
 
     <servlet>
         <servlet-name>xylydangnhap</servlet-name>
