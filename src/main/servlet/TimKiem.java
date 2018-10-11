@@ -18,6 +18,6 @@ public class TimKiem extends BaseServlet {
             req.setAttribute("searchResult", result);
         }
         req.setAttribute("main_right", "timkiem");
-        req.getRequestDispatcher("index.jsp").forward(req, resp);
+        req.getRequestDispatcher("WEB-INF/index.jsp").forward(req, resp);
     }
 }

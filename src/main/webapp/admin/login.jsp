@@ -13,7 +13,7 @@
                 <input type="submit" name='submit' value="Đăng Nhập " class="buttondangnhap"/>
                 </form>
         </div>
-        <div id="vetrangchu"><a href="../index.jsp">Về Trang Chủ </a></div>
+        <div id="vetrangchu"><a href="../WEB-INF/index.jsp">Về Trang Chủ </a></div>
     </div>
 </div>
 </body>
