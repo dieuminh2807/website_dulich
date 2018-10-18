@@ -1,5 +1,8 @@
 package entity;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ChiTietTour {
     private String maTourdb;
     private String maloaiTour;
@@ -11,6 +14,16 @@ public class ChiTietTour {
     private String phuongtien;
     private String khachsan;
     private String lichtrinh;
+    private String hinhshow;
+    private List<String> hinhs = new ArrayList<>();
+
+    public String getHinhshow() {
+        return hinhshow;
+    }
+
+    public void setHinhshow(String hinhshow) {
+        this.hinhshow = hinhshow;
+    }
 
     public String getMaTourdb() {
         return maTourdb;
@@ -92,6 +105,14 @@ public class ChiTietTour {
         this.lichtrinh = lichtrinh;
     }
 
+    public List<String> getHinhs() {
+        return hinhs;
+    }
+
+    public void setHinhs(List<String> hinhs) {
+        this.hinhs = hinhs;
+    }
+
     @Override
     public String toString() {
         return "ChiTietTour{" +
@@ -105,6 +126,8 @@ public class ChiTietTour {
                 ", phuongtien='" + phuongtien + '\'' +
                 ", khachsan='" + khachsan + '\'' +
                 ", lichtrinh='" + lichtrinh + '\'' +
+                ", hinhshow='" + hinhshow + '\'' +
+                ", hinhs=" + hinhs +
                 '}';
     }
 }

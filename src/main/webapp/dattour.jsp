@@ -71,9 +71,65 @@
         <input type = text placeholder="Nhập yêu cầu đặc biệt">
     </div>
 </div>
+<br/>
 
 
+<div class="card card-header bg-danger text-white">Nhập danh sách đi (Bao gồm: Họ tên, Ngày sinh, Địa chỉ, Giới tính, Độ tuổi, Đặt phòng)
+</div>
+<br/>
+<div class = "row">
+    <div class = "col-4">
+        <input type = text style="width: 100%" placeholder="vd: Phạm Văn A">
+    </div>
+    <div class = "col-4">
+        <input type = text style="width: 100%" placeholder="vd: 1-1-1990">
+    </div>
+    <div class = "col-4">
+        <input type = text style="width: 100%" placeholder="vd: 02 Nguyễn Du">
+    </div>
+</div>
+<br/>
+<div class = "row">
+    <div class = "col-4">
+        <div class="form-group">
+            <select class="form-control">
+                <option>Nam</option>
+                <option>Nữ</option>
+                <option>Khác</option>
+            </select>
+        </div>
+    </div>
+    <div class = "col-4">
+        <div class="form-group">
+            <select class="form-control">
+                <option>Người lớn</option>
+                <option>Trẻ em</option>
+            </select>
+        </div>
+    </div>
+    <div class = "col-4">
+        <div class="form-group">
+            <select class="form-control">
+                <option>Không</option>
+                <option>Có</option>
+            </select>
+        </div>
+    </div>
+</div>
+<br/>
 
-<div class="card card-header bg-primary text-white">Giá tour cơ bản</div>
-<div class="card card-header bg-primary text-white">Giá tour cơ bản</div>
-<div class="card card-header bg-primary text-white">Giá tour cơ bản</div>
+
+<div class="card card-header bg-primary text-white">Thông tin thanh toán</div>
+<br/>
+<div class="radio">
+    <input type="radio" name="optradio" checked>Tiền mặt
+</div>
+<div class="radio">
+    <input type="radio" name="optradio">Chuyển khoản
+</div>
+<br/>
+<div class="card card-header bg-primary text-white">Điều khoản</div>
+<br/>
+<div class = "checkbox-inline" ><input type="checkbox" checked>Tôi đồng ý với các điều khoản trên</div>
+<br/>
+<div class="btn btn-warning text-white" style="float:left">ĐẶT TOUR</div>

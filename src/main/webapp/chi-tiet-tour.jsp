@@ -1,7 +1,8 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <div class = "card-header bg-primary text-white">${requestScope.chiTietTourData.tenTour}</div>
 <br/>
 <div class="row">
-    <div class="col-5"> <img src="static/image/hinhtourdulichmiennam/phuquoc/hinhshow.jpg" class="img-thumbnail" alt="Cinque Terre"> </div>
+    <div class="col-5"> <img src="${requestScope.chiTietTourData.hinhshow}" class="img-thumbnail" alt="Cinque Terre"> </div>
     <div class="col-7">
         <span class="glyphicons-one-day"></span><p>Giá tour: ${requestScope.chiTietTourData.giave} VNĐ</p>
         <span class="glyphicons-one-day"></span><p>Thời gian: ${requestScope.chiTietTourData.thoigian}</p>
@@ -36,15 +37,14 @@ Các điểm đón :<br/>
 
 <div class = "card-header bg-primary text-white">Hình tham khảo</div>
 <br/>
-<div class="row">
-    <div class="col-6"> <img src="static/image/hinhtourdulichmiennam/phuquoc/hinhshow.jpg" class="img-thumbnail" alt="Cinque Terre">
-    </div>
-    <div class="col-6"> <img src="static/image/hinhtourdulichmiennam/phuquoc/hinhshow.jpg" class="img-thumbnail" alt="Cinque Terre">
-    </div>
-    <div class="col-6"> <img src="static/image/hinhtourdulichmiennam/phuquoc/hinhshow.jpg" class="img-thumbnail" alt="Cinque Terre">
-    </div>
-    <div class="col-6"> <img src="static/image/hinhtourdulichmiennam/phuquoc/hinhshow.jpg" class="img-thumbnail" alt="Cinque Terre">
-    </div>
+<div class="row equal-height">
+    <c:forEach items="${requestScope.chiTietTourData.hinhs}" var="hinh">
+        <div class="col-md-6">
+            <div class="thumbnail">
+                <img src="${hinh}" class="img-thumbnail">
+            </div>
+        </div>
+    </c:forEach>
 </div>
 <br/>
 <div><a href="/kdattour?matour=${requestScope.chiTietTourData.maTourdb}" class="btn btn-warning text-white" style="float:right">Đặt ngay</a></div>
