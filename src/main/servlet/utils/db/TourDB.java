@@ -59,14 +59,14 @@ public class TourDB {
 
     public static ChiTietTour hienThiCCT(String matour){
         ChiTietTour chiTietTour = new ChiTietTour();
-        String sql = "select * from tour where matour = ?";
+        String sql = "select * from tour,images where tour.matour = ? and tour.matour = images.matour";
         Connection con = DatabaseUtil.getConnection();
         try {
             PreparedStatement pstm = con.prepareStatement(sql);
             pstm.setString(1,matour);
             ResultSet rs = pstm.executeQuery();
             if(rs.next()){
-                String maTourdb =  rs.getString("matour");
+                String maTourdb =  rs.getString("tour.matour");
                 String maloaiTour =  rs.getString("maloaitour");
                 String tenloaiTour =  rs.getString("tenloaitour");
                 String tenTour =  rs.getString("tentour");
@@ -76,6 +76,14 @@ public class TourDB {
                 String phuongtien =  rs.getString("phuongtien");
                 String khachsan =  rs.getString("khachsan");
                 String lichtrinh =  rs.getString("lichtrinh");
+                String hinhshow = rs.getString("hinhshow");
+                String hinh1 = rs.getString("hinh1");
+                String hinh2 = rs.getString("hinh2");
+                String hinh3 = rs.getString("hinh3");
+                String hinh4= rs.getString("hinh4");
+
+
+
 
 
                 chiTietTour.setMaTourdb(maTourdb);
@@ -88,6 +96,23 @@ public class TourDB {
                 chiTietTour.setPhuongtien(phuongtien);
                 chiTietTour.setKhachsan(khachsan);
                 chiTietTour.setLichtrinh(lichtrinh);
+                chiTietTour.setHinhshow(hinhshow);
+
+                if(hinh1!=null && !hinh1.equals("")) {
+                    chiTietTour.getHinhs().add(hinh1);
+                }
+
+                if(hinh2!=null && !hinh2.equals("")) {
+                    chiTietTour.getHinhs().add(hinh2);
+                }
+
+                if(hinh3!=null && !hinh3.equals("")) {
+                    chiTietTour.getHinhs().add(hinh3);
+                }
+
+                if(hinh4!=null && !hinh4.equals("")) {
+                    chiTietTour.getHinhs().add(hinh4);
+                }
             }
         } catch (SQLException e) {
             e.printStackTrace();

@@ -7,7 +7,7 @@
             <div class="row">
                 <c:forEach items="${requestScope.tourlist1}" var="tour" begin = "0" end = "2">
                 <div class="col-4">
-                    <div class="card h-100">
+                    <div class="card">
                         <img class="card-img-top" style="min-height: 170px"
                              src="static/image/hinhtourdulichmiennam/phuquoc/hinhshow.jpg"
                              alt="Card image cap">
@@ -34,7 +34,7 @@
             <div class="row">
                 <c:forEach items="${requestScope.tourlist2}" var="tour" begin = "0" end = "2">
                     <div class="col-4">
-                        <div class="card h-100">
+                        <div class="card">
                             <img class="card-img-top" style="min-height: 170px"
                                  src="static/image/hinhtourdulichmiennam/phuquoc/hinhshow.jpg"
                                  alt="Card image cap">
@@ -61,7 +61,7 @@
             <div class="row">
                 <c:forEach items="${requestScope.tourlist3}" var="tour" begin = "0" end = "2">
                     <div class="col-4">
-                        <div class="card h-100">
+                        <div class="card">
                             <img class="card-img-top" style="min-height: 170px"
                                  src="static/image/hinhtourdulichmiennam/phuquoc/hinhshow.jpg"
                                  alt="Card image cap">
