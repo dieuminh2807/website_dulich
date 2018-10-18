@@ -8,7 +8,7 @@
         <span class="glyphicons-one-day"></span><p>Khởi hành: ${requestScope.chiTietTourData.khoihanh}</p>
         <span class="glyphicons-one-day"></span><p>Phương tiện: ${requestScope.chiTietTourData.phuongtien}</p>
         <span class="glyphicons-one-day"></span><p>Khách sạn: ${requestScope.chiTietTourData.khachsan}</p>
-        <a href="/kdattour?matour=phuquoc01" class="btn btn-warning text-white" style="float:right">Đặt ngay</a>
+        <a href="/kdattour?matour=${requestScope.chiTietTourData.maTourdb}" class="btn btn-warning text-white" style="float:right">Đặt ngay</a>
     </div>
 </div>
 <br/>
@@ -31,8 +31,26 @@ Các điểm đón :<br/>
     Ngoài ra xe có thể đón quý khách dọc theo quốc lộ 1A đến ngã ba Dầu Dây<br/></p>
     </div>
 <br/>
-<div><a href="#" class="btn btn-warning text-white" style="float:right">Đặt ngay</a></div>
+
+
+
+<div class = "card-header bg-primary text-white">Hình tham khảo</div>
 <br/>
+<div class="row">
+    <div class="col-6"> <img src="static/image/hinhtourdulichmiennam/phuquoc/hinhshow.jpg" class="img-thumbnail" alt="Cinque Terre">
+    </div>
+    <div class="col-6"> <img src="static/image/hinhtourdulichmiennam/phuquoc/hinhshow.jpg" class="img-thumbnail" alt="Cinque Terre">
+    </div>
+    <div class="col-6"> <img src="static/image/hinhtourdulichmiennam/phuquoc/hinhshow.jpg" class="img-thumbnail" alt="Cinque Terre">
+    </div>
+    <div class="col-6"> <img src="static/image/hinhtourdulichmiennam/phuquoc/hinhshow.jpg" class="img-thumbnail" alt="Cinque Terre">
+    </div>
+</div>
+<br/>
+<div><a href="/kdattour?matour=${requestScope.chiTietTourData.maTourdb}" class="btn btn-warning text-white" style="float:right">Đặt ngay</a></div>
+<br/>
+<br/>
+
 <p>Bình luận</p>
 <div class="row">
     <div class="col-1"><img src="static/image/hinhtourdulichmiennam/phuquoc/hinhshow.jpg" class="img-rounded" style="height:40px; width: 40px"> </div>
