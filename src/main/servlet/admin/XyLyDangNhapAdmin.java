@@ -19,7 +19,7 @@ public class XyLyDangNhapAdmin extends HttpServlet {
 
         try {
 
-            String sql = "select * from user_account where username = ? and pword = ? and role = 1";
+            String sql = "select * from admin where username = ? and pword = ?";
 
             PreparedStatement pt = DatabaseUtil.getConnection().prepareStatement(sql);
 
@@ -33,12 +33,8 @@ public class XyLyDangNhapAdmin extends HttpServlet {
             } else {
                 request.setAttribute("loidangnhap", "Nhập sai username hoặc password!");
             }
-
-            DatabaseUtil.closeConnection();
             request.getRequestDispatcher("index.jsp").forward(request, response);
-
-
-
+            DatabaseUtil.closeConnection();
         } catch (Exception e) {
             e.printStackTrace();
             DatabaseUtil.closeConnection();

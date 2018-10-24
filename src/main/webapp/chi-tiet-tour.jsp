@@ -4,11 +4,11 @@
 <div class="row">
     <div class="col-5"> <img src="${requestScope.chiTietTourData.hinhshow}" class="img-thumbnail" alt="Cinque Terre"> </div>
     <div class="col-7">
-        <span class="glyphicons-one-day"></span><p>Giá tour: ${requestScope.chiTietTourData.giave} VNĐ</p>
-        <span class="glyphicons-one-day"></span><p>Thời gian: ${requestScope.chiTietTourData.thoigian}</p>
-        <span class="glyphicons-one-day"></span><p>Khởi hành: ${requestScope.chiTietTourData.khoihanh}</p>
-        <span class="glyphicons-one-day"></span><p>Phương tiện: ${requestScope.chiTietTourData.phuongtien}</p>
-        <span class="glyphicons-one-day"></span><p>Khách sạn: ${requestScope.chiTietTourData.khachsan}</p>
+        <p>Giá tour: ${requestScope.chiTietTourData.giavenguoilon} VNĐ</p>
+        <p>Thời gian: ${requestScope.chiTietTourData.thoigian}</p>
+        <p>Khởi hành: ${requestScope.chiTietTourData.khoihanh}</p>
+        <p>Phương tiện: ${requestScope.chiTietTourData.phuongtien}</p>
+        <p>Khách sạn: ${requestScope.chiTietTourData.khachsan}</p>
         <a href="/kdattour?matour=${requestScope.chiTietTourData.maTourdb}" class="btn btn-warning text-white" style="float:right">Đặt ngay</a>
     </div>
 </div>
@@ -38,7 +38,7 @@ Các điểm đón :<br/>
 <div class = "card-header bg-primary text-white">Hình tham khảo</div>
 <br/>
 <div class="row equal-height">
-    <c:forEach items="${requestScope.chiTietTourData.hinhs}" var="hinh">
+    <c:forEach items="${requestScope.chiTietTourData.hinhcon}" var="hinh">
         <div class="col-md-6">
             <div class="thumbnail">
                 <img src="${hinh}" class="img-thumbnail">

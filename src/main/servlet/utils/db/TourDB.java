@@ -6,10 +6,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class TourDB {
 
@@ -31,7 +28,8 @@ public class TourDB {
                 String matour = resultSet.getString("matour");
                 String tenloaitour = resultSet.getString("tenloaitour");
                 String tentour = resultSet.getString("tentour");
-                Integer giave = resultSet.getInt("giave");
+                Integer giavenguoilon =  resultSet.getInt("giavenguoilon");
+                Integer giavetreem =  resultSet.getInt("giavetreem");
                 String thoigian = resultSet.getString("thoigian");
                 String khoihanh = resultSet.getString("khoihanh");
                 String phuongtien = resultSet.getString("phuongtien");
@@ -41,7 +39,8 @@ public class TourDB {
                 chitiettour.setMaTourdb(matour);
                 chitiettour.setTenloaiTour(tenloaitour);
                 chitiettour.setTenTour(tentour);
-                chitiettour.setGiave(giave);
+                chitiettour.setGiavenguoilon(giavenguoilon);
+                chitiettour.setGiavetreem(giavetreem);
                 chitiettour.setThoigian(thoigian);
                 chitiettour.setKhoihanh(khoihanh);
                 chitiettour.setPhuongtien(phuongtien);
@@ -70,7 +69,8 @@ public class TourDB {
                 String maloaiTour =  rs.getString("maloaitour");
                 String tenloaiTour =  rs.getString("tenloaitour");
                 String tenTour =  rs.getString("tentour");
-                Integer giave =  rs.getInt("giave");
+                Integer giavenguoilon =  rs.getInt("giavenguoilon");
+                Integer giavetreem =  rs.getInt("giavetreem");
                 String thoigian  =  rs.getString("thoigian");
                 String khoihanh =  rs.getString("khoihanh");
                 String phuongtien =  rs.getString("phuongtien");
@@ -82,15 +82,12 @@ public class TourDB {
                 String hinh3 = rs.getString("hinh3");
                 String hinh4= rs.getString("hinh4");
 
-
-
-
-
                 chiTietTour.setMaTourdb(maTourdb);
                 chiTietTour.setMaloaiTour(maloaiTour);
                 chiTietTour.setTenloaiTour(tenloaiTour);
                 chiTietTour.setTenTour(tenTour);
-                chiTietTour.setGiave(giave);
+                chiTietTour.setGiavenguoilon(giavenguoilon);
+                chiTietTour.setGiavetreem(giavetreem);
                 chiTietTour.setThoigian(thoigian);
                 chiTietTour.setKhoihanh(khoihanh);
                 chiTietTour.setPhuongtien(phuongtien);
@@ -98,20 +95,17 @@ public class TourDB {
                 chiTietTour.setLichtrinh(lichtrinh);
                 chiTietTour.setHinhshow(hinhshow);
 
-                if(hinh1!=null && !hinh1.equals("")) {
-                    chiTietTour.getHinhs().add(hinh1);
+                if(hinh1 != null || !hinh1.equals("")){
+                    chiTietTour.themHinhCon(hinh1);
                 }
-
-                if(hinh2!=null && !hinh2.equals("")) {
-                    chiTietTour.getHinhs().add(hinh2);
+                if(hinh2 !=null || !hinh2.equals("")){
+                    chiTietTour.themHinhCon(hinh2);
                 }
-
-                if(hinh3!=null && !hinh3.equals("")) {
-                    chiTietTour.getHinhs().add(hinh3);
+                if(hinh3 !=null || !hinh3.equals("")){
+                    chiTietTour.themHinhCon(hinh3);
                 }
-
-                if(hinh4!=null && !hinh4.equals("")) {
-                    chiTietTour.getHinhs().add(hinh4);
+                if(hinh4 !=null || !hinh4.equals("")){
+                    chiTietTour.themHinhCon(hinh4);
                 }
             }
         } catch (SQLException e) {
@@ -133,7 +127,8 @@ public class TourDB {
                 String maloaitourdb = rs.getString("maloaitour");
                 String tenloaitour = rs.getString("tenloaitour");
                 String tentour = rs.getString("tentour");
-                Integer giave = rs.getInt("giave");
+                Integer giavenguoilon =  rs.getInt("giavenguoilon");
+                Integer giavetreem =  rs.getInt("giavetreem");
                 String thoigian = rs.getString("thoigian");
                 String khoihanh = rs.getString("khoihanh");
                 String phuongtien = rs.getString("phuongtien");
@@ -145,7 +140,8 @@ public class TourDB {
                 cct.setMaloaiTour(maloaitourdb);
                 cct.setTenloaiTour(tenloaitour);
                 cct.setTenTour(tentour);
-                cct.setGiave(giave);
+                cct.setGiavenguoilon(giavenguoilon);
+                cct.setGiavetreem(giavetreem);
                 cct.setThoigian(thoigian);
                 cct.setKhoihanh(khoihanh);
                 cct.setPhuongtien(phuongtien);
@@ -182,5 +178,23 @@ public class TourDB {
             e.printStackTrace();
         }
         return result;
+    }
+    public static ChiTietTour tenMaLoai(String maloaitour){
+        ChiTietTour cct = new ChiTietTour();
+        try {
+            PreparedStatement pstm = DatabaseUtil.getConnection().prepareStatement("select * from tour where maloaitour = ?");
+            pstm.setString(1,maloaitour);
+            ResultSet resultSet = pstm.executeQuery();
+            if(resultSet.next()){
+                String maloaitourdb = resultSet.getString("maloaitour");
+                String tenloaitourdb = resultSet.getString("tenloaitour");
+
+                cct.setMaloaiTour(maloaitourdb);
+                cct.setTenloaiTour(tenloaitourdb);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return cct;
     }
 }

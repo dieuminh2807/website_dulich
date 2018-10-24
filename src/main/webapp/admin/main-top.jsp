@@ -17,31 +17,31 @@
             <div id="QuanlyLoaiSP">
                 <a href="index.jsp?display=quanlyloaitour" >
                     <img src="Images/quanlytour.jpg" width="150" height="130" />
-                    <p>Các loại tour</p>
+                    <p>Quản Lý Tour</p>
                 </a>
             </div>
         </div>
         <div id="Panel_Box">
             <div id="QuanlyLoaiSP">
                 <a href="index.jsp?display=quanlychitiettour" >
-                    <img src="Images/QuanlyChitiet.png" width="150" height="130"/>
-                    <p> Quản Lý Chi Tiết Tour</p>
+                    <img src="Images/Quanlykhachang.png" width="150" height="130" />
+                    <p> Quản Lý Đặt Tour</p>
                 </a>
             </div>
         </div>
         <div id="Panel_Box">
             <div id="QuanlyLoaiSP">
                 <a href="quanlylichtrinh.jsp?ac=lichtrinh">
-                    <img src="Images/lichtrinh.png" width="150" height="130"/>
-                    <p>Quản Lý Lịch Trình Tour</p>
+                    <img src="Images/khachhang.jpeg" width="150" height="130"/>
+                    <p>Thông Tin Khách Hàng</p>
                 </a>
             </div>
         </div>
         <div id="Panel_Box">
             <div id="QuanlyLoaiSP">
                 <a href="quanlydonhang.jsp?ac=donhang" >
-                    <img src="Images/Quanlykhachang.png" width="150" height="130" />
-                    <p> Quản Lý Đơn Đặt Tour</p>
+                    <img src="Images/doanhth.jpeg" width="150" height="130" />
+                    <p> Thống Kê Doanh Thu</p>
                 </a>
             </div>
         </div>

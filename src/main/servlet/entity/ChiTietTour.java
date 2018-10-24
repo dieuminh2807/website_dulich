@@ -8,14 +8,43 @@ public class ChiTietTour {
     private String maloaiTour;
     private String tenloaiTour;
     private String tenTour;
-    private Integer giave;
+    private Integer giavenguoilon;
+    private Integer giavetreem;
     private String thoigian;
     private String khoihanh;
     private String phuongtien;
     private String khachsan;
     private String lichtrinh;
     private String hinhshow;
-    private List<String> hinhs = new ArrayList<>();
+    private List<String> hinhcon = new ArrayList<>();
+
+    public List<String> getHinhcon(){
+        return hinhcon;
+    }
+
+    public void setHinhcon(List<String> hinh){
+        hinhcon = hinh;
+    }
+
+    public Integer getGiavenguoilon() {
+        return giavenguoilon;
+    }
+
+    public void setGiavenguoilon(Integer giavenguoilon) {
+        this.giavenguoilon = giavenguoilon;
+    }
+
+    public Integer getGiavetreem() {
+        return giavetreem;
+    }
+
+    public void setGiavetreem(Integer giavetreem) {
+        this.giavetreem = giavetreem;
+    }
+
+    public void themHinhCon(String cacHinh){
+        hinhcon.add(cacHinh);
+    }
 
     public String getHinhshow() {
         return hinhshow;
@@ -55,14 +84,6 @@ public class ChiTietTour {
 
     public void setTenTour(String tenTour) {
         this.tenTour = tenTour;
-    }
-
-    public Integer getGiave() {
-        return giave;
-    }
-
-    public void setGiave(Integer giave) {
-        this.giave = giave;
     }
 
     public String getThoigian() {
@@ -105,14 +126,6 @@ public class ChiTietTour {
         this.lichtrinh = lichtrinh;
     }
 
-    public List<String> getHinhs() {
-        return hinhs;
-    }
-
-    public void setHinhs(List<String> hinhs) {
-        this.hinhs = hinhs;
-    }
-
     @Override
     public String toString() {
         return "ChiTietTour{" +
@@ -120,14 +133,15 @@ public class ChiTietTour {
                 ", maloaiTour='" + maloaiTour + '\'' +
                 ", tenloaiTour='" + tenloaiTour + '\'' +
                 ", tenTour='" + tenTour + '\'' +
-                ", giave=" + giave +
+                ", giavenguoilon=" + giavenguoilon +
+                ", giavetreem=" + giavetreem +
                 ", thoigian='" + thoigian + '\'' +
                 ", khoihanh='" + khoihanh + '\'' +
                 ", phuongtien='" + phuongtien + '\'' +
                 ", khachsan='" + khachsan + '\'' +
                 ", lichtrinh='" + lichtrinh + '\'' +
                 ", hinhshow='" + hinhshow + '\'' +
-                ", hinhs=" + hinhs +
+                ", hinhcon=" + hinhcon +
                 '}';
     }
 }
