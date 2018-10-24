@@ -6,76 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1943d23-e4fd-42ae-ba4f-d94281478c29" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/servlet/DanhSachTourTheoLoai.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/servlet/XuLyDatTour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/servlet/admin/XuLyTour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/servlet/utils/StringUtils/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/servlet/utils/db/DonHangDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/danhsachtourtheoloai.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/dattourthanhcong.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/css/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/bootstrap-datepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/jQuery/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/jQuery/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/jQuery/moment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/tempusdominus/tempusdominus-bootstrap-4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/servlet/BaseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/servlet/BaseServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/servlet/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/servlet/IndexServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/servlet/admin/XyLyDangNhapAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/servlet/admin/XyLyDangNhapAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/servlet/entity/ChiTietTour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/servlet/entity/ChiTietTour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/servlet/utils/db/DatabaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/servlet/utils/db/DatabaseUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/servlet/utils/db/TourDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/servlet/utils/db/TourDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Default-main-right.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Default-main-right.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Main-ringht.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Main-ringht.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/main-top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/main-top.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/chi-tiet-tour.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/chi-tiet-tour.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/dattour.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/dattour.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/xulydattour.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/xulydattour.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/timkiem.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/timkiem.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="b1943d23-e4fd-42ae-ba4f-d94281478c29" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -588,12 +519,12 @@
       <workItem from="1540291805637" duration="13205000" />
       <workItem from="1540347157111" duration="6411000" />
       <workItem from="1540366717285" duration="6365000" />
-      <workItem from="1540373122021" duration="276000" />
+      <workItem from="1540373122021" duration="592000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227335000" />
+    <option name="totallyTimeSpent" value="227651000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -605,7 +536,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1299" height="713" extended-state="7" />
+    <frame x="67" y="25" width="1299" height="713" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5011971" side_tool="true" weight="0.41551724" />
