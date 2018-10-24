@@ -9,6 +9,12 @@
     <c:when test="${requestScope.main_right == 'timkiem'}">
         <jsp:include page="timkiem.jsp"/>
     </c:when>
+    <c:when test="${requestScope.main_right == 'danhsachtourtheoloai'}">
+        <jsp:include page="danhsachtourtheoloai.jsp"/>
+    </c:when>
+    <c:when test="${requestScope.main_right == 'dattourthanhcong'}">
+        <jsp:include page="dattourthanhcong.jsp"></jsp:include>
+    </c:when>
     <c:otherwise>
         <jsp:include page="Default-main-right.jsp"></jsp:include>
     </c:otherwise>

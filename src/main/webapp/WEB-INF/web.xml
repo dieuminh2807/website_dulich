@@ -21,6 +21,16 @@
     </servlet>
 
     <servlet>
+        <servlet-name>xulydattour</servlet-name>
+        <servlet-class>XuLyDatTour</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>xulydattour</servlet-name>
+        <url-pattern>/xulydattour</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>xylydangnhap</servlet-name>
         <servlet-class>XuLyDangNhap</servlet-class>
     </servlet>
@@ -28,6 +38,16 @@
     <servlet-mapping>
         <servlet-name>xylydangnhap</servlet-name>
         <url-pattern>/xulydangnhap</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>danhsachtourtheoloai</servlet-name>
+        <servlet-class>DanhSachTourTheoLoai</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>danhsachtourtheoloai</servlet-name>
+        <url-pattern>/danhsachtourtheoloai</url-pattern>
     </servlet-mapping>
 
 
@@ -91,6 +111,16 @@
         <servlet-name>xulydangnhapadmin</servlet-name>
         <url-pattern>/admin/xulydangnhapadmin</url-pattern>
     </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>quanlytour</servlet-name>
+        <url-pattern>admin/quanlytour</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>quanlytour</servlet-name>
+        <servlet-class>admin.XuLyTour</servlet-class>
+    </servlet>
 
     <servlet>
         <servlet-name>xulydangxuatadmin</servlet-name>

@@ -11,7 +11,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <script type="text/javascript" src="js/script.js"></script>
-    <title>MH_admin page</title>
+    <title>Admin page</title>
 </head>
 
 <body>
@@ -26,7 +26,6 @@
             </c:when>
             <c:otherwise>
                 <jsp:include page="main-top.jsp"/>
-
                 <c:choose>
                     <c:when test='${param.display.equals("quanlyloaitour")}'>
                         <c:choose>
@@ -39,7 +38,6 @@
                         </c:choose>
                         <jsp:include page="quanlyloaitour/lietke.jsp"/>
                     </c:when>
-
 
 
                     <c:when test='${param.display.equals("quanlychitiettour")}'>
@@ -61,7 +59,6 @@
         </c:choose>
     </div>
 </div>
-
 
 
 </body>

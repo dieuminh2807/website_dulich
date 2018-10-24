@@ -12,16 +12,6 @@ public class IndexServlet extends BaseServlet {
 
     @Override
     public void process(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
-        List<ChiTietTour> danhSach1 = TourDB.getTourListByMaLoai("moi");
-        List<ChiTietTour> danhSach2 = TourDB.getTourListByMaLoai("nhieunguoidi");
-        List<ChiTietTour> danhsach3 = TourDB.getTourListByMaLoai("cokhuyenmai");
-        req.setAttribute("tourlist1",danhSach1);
-        req.setAttribute("tourlist2",danhSach2);
-        req.setAttribute("tourlist3",danhsach3);
-
         req.getRequestDispatcher("WEB-INF/index.jsp").forward(req, resp);
-
-
     }
 }

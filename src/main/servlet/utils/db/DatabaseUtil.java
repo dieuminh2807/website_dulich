@@ -10,7 +10,7 @@ public class DatabaseUtil {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             con = DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/websitedulich", "root", "123456");
+                    "jdbc:mysql://localhost:3306/websitedulich?useUnicode=yes&characterEncoding=UTF-8", "root", "123456");
             return con;
         } catch (Exception e) {
             e.printStackTrace();
