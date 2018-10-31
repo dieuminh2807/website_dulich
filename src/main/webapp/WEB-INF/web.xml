@@ -103,18 +103,71 @@
 
 
     <!-- servlet mapping for admin pages -->
+    <!--<servlet>-->
+        <!--<servlet-name>xulydangnhapadmin</servlet-name>-->
+        <!--<servlet-class>admin.XyLyDangNhapAdmin</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>xulydangnhapadmin</servlet-name>-->
+        <!--<url-pattern>/admin/xulydangnhapadmin</url-pattern>-->
+    <!--</servlet-mapping>-->
+
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>quanlytour</servlet-name>-->
+        <!--<url-pattern>/admin/quanlytour</url-pattern>-->
+    <!--</servlet-mapping>-->
+
+    <!--<servlet>-->
+        <!--<servlet-name>quanlytour</servlet-name>-->
+        <!--<servlet-class>admin.XuLyTour</servlet-class>-->
+    <!--</servlet>-->
+
+    <!--<servlet>-->
+        <!--<servlet-name>xulydangxuatadmin</servlet-name>-->
+        <!--<servlet-class>admin.XuLyDangXuat</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>xulydangxuatadmin</servlet-name>-->
+        <!--<url-pattern>/admin/xulydangxuatadmin</url-pattern>-->
+    <!--</servlet-mapping>-->
+
+    <!--<servlet>-->
+        <!--<servlet-name>xulyloaitour</servlet-name>-->
+        <!--<servlet-class>admin.XuLyLoaiTour</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>xulyloaitour</servlet-name>-->
+        <!--<url-pattern>/admin/xulyloaitour</url-pattern>-->
+    <!--</servlet-mapping>-->
+
+    <!--<servlet>-->
+        <!--<servlet-name>xulychitiettour</servlet-name>-->
+        <!--<servlet-class>admin.XuLyChiTietTour</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>xulychitiettour</servlet-name>-->
+        <!--<url-pattern>/admin/xulychitiettour</url-pattern>-->
+    <!--</servlet-mapping>-->
+
     <servlet>
-        <servlet-name>xulydangnhapadmin</servlet-name>
-        <servlet-class>admin.XyLyDangNhapAdmin</servlet-class>
+        <servlet-name>indexAdmin</servlet-name>
+        <servlet-class>admin.IndexAdmin</servlet-class>
     </servlet>
-    <servlet-mapping>
-        <servlet-name>xulydangnhapadmin</servlet-name>
-        <url-pattern>/admin/xulydangnhapadmin</url-pattern>
-    </servlet-mapping>
 
     <servlet-mapping>
-        <servlet-name>quanlytour</servlet-name>
-        <url-pattern>admin/quanlytour</url-pattern>
+        <servlet-name>indexAdmin</servlet-name>
+        <url-pattern>/admin</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>xuLyDangNhapAdmin</servlet-name>
+        <servlet-class>admin.XyLyDangNhapAdmin</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>xuLyDangNhapAdmin</servlet-name>
+        <url-pattern>/admin/xulydangnhapadmin</url-pattern>
     </servlet-mapping>
 
     <servlet>
@@ -122,33 +175,40 @@
         <servlet-class>admin.XuLyTour</servlet-class>
     </servlet>
 
-    <servlet>
-        <servlet-name>xulydangxuatadmin</servlet-name>
-        <servlet-class>admin.XuLyDangXuat</servlet-class>
-    </servlet>
     <servlet-mapping>
-        <servlet-name>xulydangxuatadmin</servlet-name>
-        <url-pattern>/admin/xulydangxuatadmin</url-pattern>
+        <servlet-name>quanlytour</servlet-name>
+        <url-pattern>/admin/quanlytour</url-pattern>
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>xulyloaitour</servlet-name>
-        <servlet-class>admin.XuLyLoaiTour</servlet-class>
+        <servlet-name>quanlydattour</servlet-name>
+        <servlet-class>admin.QuanLyDatTour</servlet-class>
     </servlet>
+
     <servlet-mapping>
-        <servlet-name>xulyloaitour</servlet-name>
-        <url-pattern>/admin/xulyloaitour</url-pattern>
+        <servlet-name>quanlydattour</servlet-name>
+        <url-pattern>/admin/quanlydattour</url-pattern>
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>xulychitiettour</servlet-name>
-        <servlet-class>admin.XuLyChiTietTour</servlet-class>
+        <servlet-name>thongtinkhachhang</servlet-name>
+        <servlet-class>admin.ThongTinKhachHang</servlet-class>
     </servlet>
+
     <servlet-mapping>
-        <servlet-name>xulychitiettour</servlet-name>
-        <url-pattern>/admin/xulychitiettour</url-pattern>
+        <servlet-name>thongtinkhachhang</servlet-name>
+        <url-pattern>/admin/thongtinkhachhang</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>thongkedoanhthu</servlet-name>
+        <servlet-class>admin.ThongKe</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>thongkedoanhthu</servlet-name>
+        <url-pattern>/admin/thongkedoanhthu</url-pattern>
+    </servlet-mapping>
 
     <jsp-config>
         <jsp-property-group>

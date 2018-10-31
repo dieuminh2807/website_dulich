@@ -62,3 +62,6 @@ function validateChiTietTour() {
 
     return true;
 }
+
+
+
