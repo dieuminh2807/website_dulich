@@ -15,7 +15,7 @@
     <div id="Control_Panel">
         <div id="Panel_Box">
             <div id="QuanlyLoaiSP">
-                <a href="index.jsp?display=quanlyloaitour" >
+                <a href="/admin/quanlytour?display=quanlyloaitour" >
                     <img src="Images/quanlytour.jpg" width="150" height="130" />
                     <p>Quản Lý Tour</p>
                 </a>

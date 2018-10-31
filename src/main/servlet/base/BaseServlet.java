@@ -1,3 +1,5 @@
+package base;
+
 import entity.ChiTietTour;
 import utils.db.TourDB;
 
