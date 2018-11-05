@@ -2,7 +2,7 @@
 <div class = "card-header bg-primary text-white">${requestScope.chiTietTourData.tenTour}</div>
 <br/>
 <div class="row">
-    <div class="col-5"> <img src="${requestScope.chiTietTourData.hinhshow}" class="img-thumbnail" alt="Cinque Terre"> </div>
+    <div class="col-5"> <img style="height: 210px" src="${requestScope.chiTietTourData.hinhshow}" class="img-thumbnail" alt="Cinque Terre"> </div>
     <div class="col-7">
         <p>Giá tour: ${requestScope.chiTietTourData.giavenguoilon} VNĐ</p>
         <p>Thời gian: ${requestScope.chiTietTourData.thoigian}</p>
@@ -56,7 +56,7 @@ Các điểm đón :<br/>
     <div class="col-1"><img src="static/image/hinhtourdulichmiennam/phuquoc/hinhshow.jpg" class="img-rounded" style="height:40px; width: 40px"> </div>
     <div class="col-11">
         <div class="border border-success">
-            <p>Diệu Minh đẹp gái lắm!</p>
+            <p>Xin chào! ahihi</p>
         </div>
     </div>
 </div>

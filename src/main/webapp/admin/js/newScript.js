@@ -65,5 +65,28 @@ function luusuachitiettour() {
     });
 }
 
+function themtour() {
+    $('#hienthichitiettourdethemModal').modal("show");
+}
 
+function luuthemtour() {
+    var formThem = $("#formThem");
+    var formData = $(formThem).serializeArray();
+    $.ajax({
+        "url": "/admin/quanlytour",
+        "type": 'POST',
+        "dataType": 'json',
+        "data" : formData,
+        "success": function (result) {
+            if(result.phanhoithanhcong =="0"){
+                $('#hienthichitiettourdethemModal').modal("hide");
+                alert("Lưu thành công");
+            }
+            else{
+                alert("Lưu thất bại");
+            }
+
+        }
+        });
+}
 
