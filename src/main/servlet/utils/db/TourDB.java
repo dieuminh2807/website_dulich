@@ -34,6 +34,7 @@ public class TourDB {
                 String khoihanh = resultSet.getString("khoihanh");
                 String phuongtien = resultSet.getString("phuongtien");
                 String khachsan = resultSet.getString("khachsan");
+                String hinhshow = resultSet.getString("hinhshow");
 
                 ChiTietTour chitiettour = new ChiTietTour();
                 chitiettour.setMaTourdb(matour);
@@ -45,6 +46,7 @@ public class TourDB {
                 chitiettour.setKhoihanh(khoihanh);
                 chitiettour.setPhuongtien(phuongtien);
                 chitiettour.setKhachsan(khachsan);
+                chitiettour.setHinhshow(hinhshow);
 
                 resultList.add(chitiettour);
             }
@@ -58,7 +60,7 @@ public class TourDB {
 
     public static ChiTietTour hienThiCCT(String matour){
         ChiTietTour chiTietTour = new ChiTietTour();
-        String sql = "select * from tour,images where tour.matour = ? and tour.matour = images.matour";
+        String sql = "select * from tour where matour = ?";
         Connection con = DatabaseUtil.getConnection();
         try {
             PreparedStatement pstm = con.prepareStatement(sql);
@@ -134,6 +136,7 @@ public class TourDB {
                 String phuongtien = rs.getString("phuongtien");
                 String khachsan = rs.getString("khachsan");
                 String lichtrinh = rs.getString("lichtrinh");
+                String hinhshow = rs.getString("hinhshow");
 
                 ChiTietTour cct = new ChiTietTour();
                 cct.setMaTourdb(matour);
@@ -147,6 +150,7 @@ public class TourDB {
                 cct.setPhuongtien(phuongtien);
                 cct.setKhachsan(khachsan);
                 cct.setLichtrinh(lichtrinh);
+                cct.setHinhshow(hinhshow);
 
                 cacTour.add(cct);
 
@@ -175,7 +179,7 @@ public class TourDB {
 
 
         } catch (SQLException e) {
-            e.printStackTrace();
+            result = null;
         }
         return result;
     }

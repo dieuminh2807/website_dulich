@@ -1,4 +1,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<button onclick="themtour()" type="button"
+        class="btn btn-warning float-left mx-2">Thêm tour
+</button>
 <table class="table table-bordered" id="dataTable">
     <thead>
     <tr>
@@ -38,7 +41,7 @@
                 <button onclick="suachitiettour('${tour.maTourdb}')" type="button"
                         class="btn btn-primary float-left mx-2">Sửa
                 </button>
-                <a href="#">
+                <a href="/admin/quanlytour?action=xoa&matour=${tour.maTourdb}">
                     <button type="button" class="btn btn-danger float-left">Xóa</button>
                 </a>
             </td>
@@ -250,6 +253,109 @@
             <div class="modal-footer">
                 <button onclick="luusuachitiettour()" type="button" class="btn btn-secondary" data-dismiss="modal">Lưu</button>
             </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="hienthichitiettourdethemModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel1">Thêm tour</h5>
+            </div>
+            <form id="formThem" onsubmit="return false">
+                <input type="hidden" name="action" value="ThemTour">
+                <div class="modal-body">
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Tên tour</span>
+                        </div>
+                        <input type="text" id="xemtentour1" name="tentour" class="form-control"
+                               aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                    </div>
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Mã loại tour</span>
+                        </div>
+                        <input type="text" id="maloaitour1" name="maloaitour" class="form-control"
+                               aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                    </div>
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Tên loại tour</span>
+                        </div>
+                        <input type="text" id="tenloaitour1" name="tenloaitour" class="form-control" aria-label="Small"
+                               aria-describedby="inputGroup-sizing-sm">
+                    </div>
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Mã tour</span>
+                        </div>
+                        <input type="text" id="matour1" name="matour" class="form-control" aria-label="Small"
+                               aria-describedby="inputGroup-sizing-sm">
+                    </div>
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Giá vé người lớn</span>
+                        </div>
+                        <input type="text" id="giavenguoilon1" name="giavenguoilon" class="form-control" aria-label="Small"
+                               aria-describedby="inputGroup-sizing-sm">
+                    </div>
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Giá vé trẻ em</span>
+                        </div>
+                        <input type="text" id="giavetreem1" name="giavetreem" class="form-control" aria-label="Small"
+                               aria-describedby="inputGroup-sizing-sm">
+                    </div>
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Thời gian</span>
+                        </div>
+                        <input type="text" id="thoigian1" name="thoigian" class="form-control" aria-label="Small"
+                               aria-describedby="inputGroup-sizing-sm">
+                    </div>
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Khởi hành</span>
+                        </div>
+                        <input type="text" id="khoihanh1" name="khoihanh" class="form-control" aria-label="Small"
+                               aria-describedby="inputGroup-sizing-sm">
+                    </div>
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Phương tiện</span>
+                        </div>
+                        <input type="text" id="phuongtien1" name="phuongtien" class="form-control" aria-label="Small"
+                               aria-describedby="inputGroup-sizing-sm">
+                    </div>
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Khách sạn</span>
+                        </div>
+                        <input type="text" id="khachsan1" name="khachsan" class="form-control" aria-label="Small"
+                               aria-describedby="inputGroup-sizing-sm">
+                    </div>
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Lịch trình</span>
+                        </div>
+                        <input type="text" id="lichtrinh1" name="lichtrinh" class="form-control" aria-label="Small"
+                               aria-describedby="inputGroup-sizing-sm">
+                    </div>
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Hình show</span>
+                        </div>
+                        <input type="text" id="hinhshow1" name="hinhshow" class="form-control" aria-label="Small"
+                               aria-describedby="inputGroup-sizing-sm">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button onclick="luuthemtour()" type="button" class="btn btn-secondary" data-dismiss="modal">Lưu</button>
+                </div>
             </form>
         </div>
     </div>

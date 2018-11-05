@@ -2,8 +2,7 @@
 <div class="card-header bg-primary text-white">${requestScope.chiTietTourData.tenTour}</div>
 <br/>
 <div class="row">
-    <div class="col-5"><img src="static/image/hinhtourdulichmiennam/phuquoc/hinhshow.jpg" class="img-thumbnail"
-                            alt="Cinque Terre"></div>
+    <div class="col-5"><img style="height: 210px" src="${requestScope.chiTietTourData.hinhshow}" class="img-thumbnail" alt="Cinque Terre"> </div>
     <div class="col-7">
         <span class="fa fa-one-day"></span>
         <p>Giá tour: ${requestScope.chiTietTourData.giavenguoilon} VNĐ</p>

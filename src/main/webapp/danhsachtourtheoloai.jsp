@@ -9,7 +9,7 @@
                     <div class="col-4">
                         <div class="card">
                             <img class="card-img-top" style="min-height: 170px"
-                                 src="static/image/hinhtourdulichmiennam/phuquoc/hinhshow.jpg"
+                                 src="${tour.hinhshow}"
                                  alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title" style="min-height: 50px">${tour.tenTour}</h5>
