@@ -8,7 +8,7 @@
                 <c:forEach items="${requestScope.tourlist1}" var="tour" begin = "0" end = "2">
                 <div class="col-4">
                     <div class="card">
-                        <img class="card-img-top" style="min-height: 170px"
+                        <img class="card-img-top" style="min-height: 250px"
                              src="${tour.hinhshow}"
                              alt="Card image cap">
                         <div class="card-body">
@@ -35,7 +35,7 @@
                 <c:forEach items="${requestScope.tourlist2}" var="tour" begin = "0" end = "2">
                     <div class="col-4">
                         <div class="card">
-                            <img class="card-img-top" style="min-height: 170px"
+                            <img class="card-img-top" style="min-height: 250px"
                                  src="${tour.hinhshow}"
                                  alt="Card image cap">
                             <div class="card-body">
@@ -62,7 +62,7 @@
                 <c:forEach items="${requestScope.tourlist3}" var="tour" begin = "0" end = "2">
                     <div class="col-4">
                         <div class="card">
-                            <img class="card-img-top" style="min-height: 170px"
+                            <img class="card-img-top" style="min-height: 250px"
                                  src="${tour.hinhshow}"
                                  alt="Card image cap">
                             <div class="card-body">

@@ -71,7 +71,7 @@
                         <span class="fa fa-minus"></span>
                       </button>
                   </span>
-                    <input type="text" name="soTreVua" class="form-control songuoi-number text-center" value="1" min="0"
+                    <input type="text" name="soTreVua" class="form-control songuoi-number text-center" value="0" min="0"
                            max="50">
                     <span class="input-group-btn">
                       <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="soTreVua">
@@ -91,7 +91,7 @@
                         <span class="fa fa-minus"></span>
                       </button>
                   </span>
-                    <input type="text" name="soTreNho" class="form-control songuoi-number text-center" value="1" min="0"
+                    <input type="text" name="soTreNho" class="form-control songuoi-number text-center" value="0" min="0"
                            max="50">
                     <span class="input-group-btn">
                       <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="soTreNho">
@@ -123,7 +123,7 @@
             </td>
         </tr>
         <tr>
-            <td>Di động (*)
+            <td>Điện thoại (*)
                 <input name="sdtNguoiDat" type=text placeholder="Di động" value="${requestScope.sdtnguoidatdanhap}">
             </td>
             <td>Email (*)
@@ -191,8 +191,8 @@
                     <select class="form-control" name="doTuoiNguoiDiCung"
                             value="${requestScope.dotuoinguoidicungdanhap}">
                         <option value="NGUOILON">Người lớn</option>
-                        <option value="TREVUA">Trẻ vừa</option>
-                        <option value="TRENHO">Trẻ nhỏ</option>
+                        <option value="TREVUA">Trẻ 5-10 tuổi</option>
+                        <option value="TRENHO">Trẻ < 5 tuổi</option>
                     </select>
                 </div>
             </div>

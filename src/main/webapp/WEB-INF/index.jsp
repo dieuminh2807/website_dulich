@@ -16,9 +16,10 @@
     <link rel="stylesheet" href="static/css/newStyle.css">
     <link href="static/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0-alpha14/js/tempusdominus-bootstrap-4.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0-alpha14/css/tempusdominus-bootstrap-4.min.css" />
-
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0-alpha14/js/tempusdominus-bootstrap-4.min.js"></script>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0-alpha14/css/tempusdominus-bootstrap-4.min.css"/>
 
 
 </head>
@@ -35,6 +36,18 @@
             <li class="nav-item active">
                 <a class="nav-link" href="/">Trang chủ<span class="sr-only">(current)</span></a>
             </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Loại tour
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <c:forEach items="${requestScope.listLoaiTour}" var="loaitour">
+                        <a class="dropdown-item"
+                           href="/danhsachtourtheoloai?maloaitour=${loaitour.key}">${loaitour.value}</a>
+                    </c:forEach>
+                </div>
+            </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Về chúng tôi</a>
             </li>
@@ -42,58 +55,50 @@
                 <a class="nav-link" href="#">Hướng dẫn đặt tour</a>
             </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0" action="/ktimkiem" method="post">
-            <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm" aria-label="Search" name = "tukhachnhap">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Tìm kiếm</button>
-        </form>
+        <c:if test="${requestScope.main_right != 'timkiem'}">
+            <form class="form-inline my-2 my-lg-0" action="/ktimkiem" method="post">
+                <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm" aria-label="Search"
+                       name="tukhachnhap">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Tìm kiếm</button>
+            </form>
+        </c:if>
     </div>
 </nav>
-<br/>
+
 
 <div class="container" style="min-height: 400px">
     <div class="row">
-        <div class="col-sm-3">
-            <div class="card border-success">
-                <div class="card-header bg-success text-white">Danh Mục</div>
-                <div class="card-block">
-                    <ul class="list-group">
-                        <c:forEach items="${requestScope.listLoaiTour}" var="loaitour">
-                            <li class="list-group-item"><a href="/danhsachtourtheoloai?maloaitour=${loaitour.key}">${loaitour.value}</a></li>
-                        </c:forEach>
-                    </ul>
-                </div>
+        <div class="col-sm-12">
+            <div style="width:100%; height: 450px;">
+                <jsp:include page="../banner.jsp"></jsp:include>
             </div>
+            <br/>
         </div>
-        <div class="col-sm-9">
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
             <jsp:include page="../Main-ringht.jsp"></jsp:include>
         </div>
     </div>
 </div>
+<br/>
 
+<div class="fb-like"
+     data-href="https://www.facebook.com/Du-l%E1%BB%8Bch-Vi%E1%BB%87t-Nam-490062761481349/?modal=admin_todo_tour"
+     data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
 
 <br/>
-<footer>
-    <div class="container-fluid bg-primary py-50">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7">
-                    <div class="row py-0">
-                        <div class="col-sm-1 hidden-md-down">
-                            <a class="bg-circle bg-info" href="#">
-                                <i class="fa fa-2x fa-fw fa-address-card" aria-hidden="true "></i>
-                            </a>
-                        </div>
-                        <div class="col-sm-11 text-white">
-                            <div><h4>  Contact</h4>
-                                <p>   <span class="header-font">M</span>y<span class="header-font">w</span>website.com</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <p class="text-center"> Copyright © Footer Mywebsite Plugin 2014. All right reserved. </p>
-            </div>
-        </div>
-    </div>
-</footer>
+
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.2';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<jsp:include page="../footer.jsp"></jsp:include>
 </body>
 </html>

@@ -19,7 +19,7 @@ public class XuLyDatTour extends BaseServlet {
 
     @Override
     public void process(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
+        req.setCharacterEncoding("UTF-8");
         String madonhang = StringUtil.randomAlphaNumeric(20);
         String matour = req.getParameter("matour");
         int songuoilon = Integer.parseInt(req.getParameter("soNguoiLon"));
