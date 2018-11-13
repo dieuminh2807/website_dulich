@@ -1,4 +1,3 @@
-<%@ page contentType="text/html; charset=UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <div class="row">
     <div class="card w-100">
@@ -6,8 +5,8 @@
         <div class="card-body">
             <div class="row">
                 <c:choose>
-                    <c:when test="${requestScope.searchResult ne null}">
-                        <c:forEach items="${requestScope.searchResult}" var="tour" begin="0" end="8">
+                    <c:when test="${requestScope.searchResultNC ne null}">
+                        <c:forEach items="${requestScope.searchResultNC}" var="tour" begin="0" end="8">
                             <div class="col-4">
                                 <div class="card">
                                     <img class="card-img-top" style="min-height: 170px"

@@ -28,6 +28,12 @@
     <c:when test="${requestScope.main_type == 'quanlytour'}">
         <jsp:include page="quanlytour.jsp"></jsp:include>
     </c:when>
+    <c:when test="${requestScope.main_type == 'quanlydattour'}">
+        <jsp:include page="quanlydattour.jsp"></jsp:include>
+    </c:when>
+    <c:when test="${requestScope.main_type == 'thongke'}">
+        <jsp:include page="thongke.jsp"></jsp:include>
+    </c:when>
 </c:choose>
 
 <script>

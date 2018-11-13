@@ -7,7 +7,11 @@
         <jsp:include page="dattour.jsp"/>
     </c:when>
     <c:when test="${requestScope.main_right == 'timkiem'}">
+        <jsp:include page="timkiemnangcao.jsp"/>
         <jsp:include page="timkiem.jsp"/>
+    </c:when>
+    <c:when test="${requestScope.main_right == 'timkiemNC'}">
+        <jsp:include page="ketquatimkiemnangcao.jsp"/>
     </c:when>
     <c:when test="${requestScope.main_right == 'danhsachtourtheoloai'}">
         <jsp:include page="danhsachtourtheoloai.jsp"/>
