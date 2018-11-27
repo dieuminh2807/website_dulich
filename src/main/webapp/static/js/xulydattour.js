@@ -80,6 +80,20 @@ $(document).ready(function(){
         nguoidicung.removeClass('d-none');
 
     });
+
+    $('input:radio[name="cachThanhToan"]').change(
+        function(){
+            if ($(this).is(':checked') && $(this).val() == 'TIEN_MAT') {
+                $("#hienthithanhtoan").hide();
+            }
+        });
+
+    $('input:radio[name="cachThanhToan"]').change(
+        function(){
+            if ($(this).is(':checked') && $(this).val() == 'CHUYEN_KHOAN') {
+                $("#hienthithanhtoan").show();
+            }
+        });
 });
 
 function XoaNguoiDiCung(element) {

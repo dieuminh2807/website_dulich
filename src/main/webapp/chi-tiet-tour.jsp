@@ -18,8 +18,9 @@
 <div class="border border-success">
     <div class="card-header bg-primary text-white">Lịch trình chi tiết</div>
     <br/>
-    ĐÊM 1: TP.HCM – CAM RANH<br/>
 
+<div style="margin-left: 20px">
+        ĐÊM 1: TP.HCM – CAM RANH<br/>
     <p>20h00: Xe và HDV VIETNAM TOURIST đón quý khách tại Tp.HCM .Khởi hành đi Cam Ranh. Quý khách nghỉ đêm trên xe . Xe
         dừng chân tại điểm dừng chân để quý khách nghỉ ngơi, vệ sinh cá nhân .
 
@@ -33,6 +34,7 @@
 
         Địa điểm 4: Ngã tư Thủ Đức, Xa Lộ Hà Nội (Lúc 21h30).<br/>
         Ngoài ra xe có thể đón quý khách dọc theo quốc lộ 1A đến ngã ba Dầu Dây<br/></p>
+</div>
 </div>
 <br/>
 

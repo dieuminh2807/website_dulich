@@ -27,7 +27,7 @@ public class QuanLyDatTour extends BaseServlet {
         try {
             PreparedStatement pstm = con.prepareStatement(sql);
             ResultSet rs = pstm.executeQuery();
-            if(rs.next()){
+            while(rs.next()){
                 String madonhang = rs.getString("madonhang");
                 String matour = rs.getString("matour");
                 Integer songuoilon = rs.getInt("songuoilon");

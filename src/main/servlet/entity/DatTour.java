@@ -13,6 +13,10 @@ public class DatTour {
     private Date ngaydat;
     private String thanhtoan;
     private String ghichu;
+    private String hoten;
+    private String sodienthoai;
+    private String diachi;
+    private String email;
 
     public String getMadonhang() {
         return madonhang;
@@ -94,6 +98,38 @@ public class DatTour {
         this.ghichu = ghichu;
     }
 
+    public String getHoten() {
+        return hoten;
+    }
+
+    public void setHoten(String hoten) {
+        this.hoten = hoten;
+    }
+
+    public String getSodienthoai() {
+        return sodienthoai;
+    }
+
+    public void setSodienthoai(String sodienthoai) {
+        this.sodienthoai = sodienthoai;
+    }
+
+    public String getDiachi() {
+        return diachi;
+    }
+
+    public void setDiachi(String diachi) {
+        this.diachi = diachi;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     @Override
     public String toString() {
         return "DatTour{" +
@@ -107,6 +143,10 @@ public class DatTour {
                 ", ngaydat=" + ngaydat +
                 ", thanhtoan='" + thanhtoan + '\'' +
                 ", ghichu='" + ghichu + '\'' +
+                ", hoten='" + hoten + '\'' +
+                ", sodienthoai='" + sodienthoai + '\'' +
+                ", diachi='" + diachi + '\'' +
+                ", email='" + email + '\'' +
                 '}';
     }
 }
