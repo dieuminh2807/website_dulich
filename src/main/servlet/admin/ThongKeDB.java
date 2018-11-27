@@ -46,4 +46,49 @@ public class ThongKeDB {
         }
         return sapxepMap;
     }
+
+
+
+
+    public static Map<String,Integer> DoanhThuThang(){
+        Calendar ngayHienTai = Calendar.getInstance();
+        ngayHienTai.add(Calendar.MONTH, -6);
+
+        String sql = "select sum(tongtien) as 'tongTien', DATE_FORMAT(ngaydat, \"%Y-%m-01\") as 'thangDat'\n" +
+                "from dattour where ngaydat>=? " +
+                "group by DATE_FORMAT(ngaydat, \"%Y-%m-01\")";
+
+        Connection con = DatabaseUtil.getConnection();
+
+        Map<String, Integer> thongKeTongTien = new HashMap<>();
+
+        Map<String, Integer> sapxepMap = new LinkedHashMap<>();
+
+        try {
+            PreparedStatement pstm = con.prepareStatement(sql);
+            pstm.setDate(1, new java.sql.Date(ngayHienTai.getTime().getTime()));
+            ResultSet rs = pstm.executeQuery();
+            while (rs.next()) {
+                int tongTien = rs.getInt("tongTien");
+                String thangDat = rs.getString("thangDat");
+                thangDat = thangDat.substring(5,7);
+                thongKeTongTien.put(thangDat, tongTien);
+            }
+
+            Set<String> keys = new TreeSet<>(thongKeTongTien.keySet());
+
+            for (String key : keys) {
+                Integer value = thongKeTongTien.get(key);
+                sapxepMap.put("Tháng " + key, value);
+            }
+
+        } catch (SQLException e) {
+            sapxepMap = null;
+        }
+        return sapxepMap;
+    }
+
+
+
+
 }

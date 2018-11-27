@@ -9,7 +9,7 @@ import java.io.IOException;
 public class XuLyDangXuat extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getSession().removeAttribute("userAdmin");
-        resp.sendRedirect("index.jsp");
+        req.getSession().removeAttribute("username");
+        resp.sendRedirect("/admin");
     }
 }

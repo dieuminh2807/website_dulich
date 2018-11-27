@@ -23,6 +23,47 @@
 
         // Set chart options
         var options = {
+            'title': 'Số lần đặt hàng tháng',
+            hAxis: {
+                title: 'Tháng'
+            },
+            vAxis: {
+                title: 'Lần'
+            },
+            'width': 1000,
+            'height': 500
+        };
+        var chart = new google.visualization.LineChart(document.getElementById('thongkeChart'));
+        chart.draw(data, options);
+    }
+
+    google.charts.setOnLoadCallback(drawChart);
+</script>
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12" id="thongkeTongTienThang"></div>
+    </div>
+</div>
+<script language="JavaScript">
+    function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Tháng');
+        data.addColumn('number', 'Tổng tiền');
+        data.addRows([
+            <c:forEach items="${requestScope.tongTien}" var="tongTien" varStatus="loop">
+            ['${tongTien.key}', ${tongTien.value}] ${not loop.last ? ',' : ''}
+            </c:forEach>
+
+        ]);
+
+        // Set chart options
+        var options = {
             'title': 'Doanh thu hàng tháng',
             hAxis: {
                 title: 'Tháng'
@@ -33,7 +74,7 @@
             'width': 1000,
             'height': 500
         };
-        var chart = new google.visualization.LineChart(document.getElementById('thongkeChart'));
+        var chart = new google.visualization.LineChart(document.getElementById('thongkeTongTienThang'));
         chart.draw(data, options);
     }
 

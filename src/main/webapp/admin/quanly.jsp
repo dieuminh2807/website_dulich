@@ -6,23 +6,25 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item <c:if test="${requestScope.main_type == 'quanlytour'}"> active </c:if>">
+            <li class="nav-item">
                 <a class="nav-link" href="/admin/quanlytour">Quản lý tour
                 </a>
             </li>
-            <li class="nav-item <c:if test="${requestScope.main_type == 'quanlydattour'}"> active </c:if>">
+            <li class="nav-item">
                 <a class="nav-link" href="/admin/quanlydattour">Quản lý đặt tour</a>
             </li>
-            <li class="nav-item <c:if test="${requestScope.main_type == 'quanlythongtinkhachhang'}"> active </c:if>">
+            <li class="nav-item">
                 <a class="nav-link" href="/admin/thongtinkhachhang">Thông tin khách hàng</a>
             </li>
-            <li class="nav-item <c:if test="${requestScope.main_type == 'quanlythongkedoanhthu'}"> active </c:if>">
+            <li class="nav-item">
                 <a class="nav-link" href="/admin/thongkedoanhthu">Thống kê doanh thu</a>
+            </li>
+            <li class="nav-item">
+               <b><a class="nav-link" href="/admin/xulydangxuat" style="color: #1c7430">Đăng xuất</a></b>
             </li>
         </ul>
     </div>
 </nav>
-
 <br/>
 <c:choose>
     <c:when test="${requestScope.main_type == 'quanlytour'}">
@@ -33,6 +35,9 @@
     </c:when>
     <c:when test="${requestScope.main_type == 'thongke'}">
         <jsp:include page="thongke.jsp"></jsp:include>
+    </c:when>
+    <c:when test="${requestScope.main_type == 'nguoidat'}">
+        <jsp:include page="thongtinkhachhhang.jsp"></jsp:include>
     </c:when>
 </c:choose>
 
