@@ -2,19 +2,22 @@
 <html>
 <head>
     <title>Du lịch Việt Nam</title>
-    <script src="static/jQuery/jquery-3.3.1.min.js"></script>
-    <script src="static/jQuery/moment.js"></script>
-    <script src="static/js/xulydattour.js"></script>
-    <script src="static/bootstrap/js/bootstrap.js"></script>
-    <script src="static/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="../static/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="../static/jQuery/moment.js"></script>
+    <script src="../static/js/xulydattour.js"></script>
+    <script src="../static/bootstrap/js/bootstrap.js"></script>
+    <script src="../static/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="../static/js/navBar.js"></script>
 
     <%--<script src="static/tempusdominus/js/tempusdominus-bootstrap-4.js"></script>--%>
 
-    <link rel="stylesheet" href="static/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="static/bootstrap/css/bootstrap-grid.css">
-    <link rel="stylesheet" href="static/bootstrap/css/bootstrap-reboot.css">
-    <link rel="stylesheet" href="static/css/newStyle.css">
-    <link href="static/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="../static/css/newStyle.css">
+    <link rel="stylesheet" href="../static/css/effect.css">
+    <link rel="stylesheet" href="../static/css/navBar.css">
+    <link href="../static/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <script type="text/javascript"
             src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0-alpha14/js/tempusdominus-bootstrap-4.min.js"></script>
@@ -23,36 +26,13 @@
 
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="col-2">
+<nav class="navbar navbar-expand-lg navbar-light border-bottom border-success">
+    <div class="col-6">
         <a class="nav-link" href="/">
-            <img src="/static/image/logo.png" alt="Logo Dieu Minh" style="max-width: 100px">
+            <img src="/static/image/logo.png" alt="Logo Dieu Minh" style="max-width: 200px">
         </a>
     </div>
-    <div class="collapse navbar-collapse col-8" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="/">Trang chủ<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">
-                    Loại tour
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <c:forEach items="${requestScope.listLoaiTour}" var="loaitour">
-                        <a class="dropdown-item"
-                           href="/danhsachtourtheoloai?maloaitour=${loaitour.key}">${loaitour.value}</a>
-                    </c:forEach>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Về chúng tôi</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Hướng dẫn đặt tour</a>
-            </li>
-        </ul>
+    <div class="collapse navbar-collapse col-4 f-right" id="navbarSupportedContent">
         <c:if test="${requestScope.main_right != 'timkiem'}">
             <form class="form-inline my-2 my-lg-0" action="/ktimkiem" method="post">
                 <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm" aria-label="Search"
@@ -65,11 +45,70 @@
 </nav>
 
 
+<nav class="navbar navbar-expand-lg navbar-light" id="mainMenu">
+    <div class="collapse navbar-collapse col-12">
+        <ul class="navbar-nav mr-auto" style="width: 100%">
+            <li class="nav-item active cool-link">
+                <a class="nav-link" href="/">Trang chủ<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item cool-link">
+                <a class="nav-link " href="/menu/gioithieu">Giới thiệu</a>
+            </li>
+            <li class="nav-item dropdown cool-link">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Loại tour
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <c:forEach items="${requestScope.listLoaiTour}" var="loaitour">
+                        <a class="dropdown-item"
+                           href="/danhsachtourtheoloai?maloaitour=${loaitour.key}">${loaitour.value}</a>
+                    </c:forEach>
+                </div>
+            </li>
+            <li class="nav-item cool-link">
+                <a class="nav-link " href="/menu/camnangdulich">Cẩm nang du lịch</a>
+            </li>
+            <li class="nav-item cool-link">
+                <a class="nav-link " href="/menu/camnangdulich">Ý kiến khách hàng</a>
+            </li>
+            <li class="nav-item cool-link">
+                <a class="nav-link " href="/menu/camnangdulich">Khuyến mãi</a>
+            </li>
+            <li class="nav-item cool-link">
+                <a class="nav-link " href="/menu/lienhe">Liên hệ</a>
+            </li>
+            <li class="nav-item cool-link">
+                <a class="nav-link " href="#">Hướng dẫn đặt tour</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
 <div class="container" style="min-height: 400px">
     <div class="row">
-        <div class="col-sm-12">
-            <div style="width:100%; height: 450px;">
+        <div class="col-7">
+            <div style="width:100%; height: 350px;">
                 <jsp:include page="../banner.jsp"></jsp:include>
+            </div>
+            <br/>
+        </div>
+        <div class="col-5">
+            <div style="width:100%; height: 350px;">
+                <div class="row">
+                    <c:forEach items="${requestScope.tourlist3}" var="tour" begin="0" end="3">
+                        <div class="col-6" style="max-height: 250px; margin-bottom: 10px;  min-height: 165px">
+                            <div class="hovereffect1">
+                                <img class="img-responsive" src="../${tour.hinhshow}" alt="Card image cap"
+                                     style="max-height: 170px; min-height: 170px">
+                                <div class="overlay1">
+                                    <h2>${tour.tenTour}</h2>
+                                    <a class="info" href="/xemchitiettour?matour=${tour.maTourdb}">Xem chi tiết</a>
+                                </div>
+                            </div>
+                        </div>
+                    </c:forEach>
+                </div>
             </div>
             <br/>
         </div>
@@ -81,22 +120,6 @@
     </div>
 </div>
 <br/>
-
-<div class="fb-like"
-     data-href="https://www.facebook.com/Du-l%E1%BB%8Bch-Vi%E1%BB%87t-Nam-490062761481349/?modal=admin_todo_tour"
-     data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
-
-<br/>
-
-<div id="fb-root"></div>
-<script>(function (d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s);
-    js.id = id;
-    js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.2';
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
 
 <style>.fb-livechat, .fb-widget {
@@ -115,7 +138,7 @@
     width: 60px;
     height: 60px;
     text-align: center;
-    bottom: 100px;
+    bottom: 30px;
     border: 0;
     outline: 0;
     border-radius: 60px;
@@ -227,12 +250,10 @@
     <div class="ctrlq fb-overlay"></div>
     <div class="fb-widget">
         <div class="ctrlq fb-close"></div>
-        <div class="fb-page" data-href="https://www.facebook.com/Du-l%E1%BB%8Bch-Vi%E1%BB%87t-Nam-490062761481349/?modal=admin_todo_tour" data-tabs="messages" data-width="360"
+        <div class="fb-page" data-href="https://www.facebook.com/Du-l%E1%BB%8Bch-Vi%E1%BB%87t-Nam-490062761481349" data-tabs="messages" data-width="360"
              data-height="400" data-small-header="true" data-hide-cover="true" data-show-facepile="false"></div>
-        <div class="fb-credit"><a href="#" target="_blank"></a></div>
-        <div id="fb-root"></div>
     </div>
-    <a href="https://m.me/" title="Gửi tin nhắn cho chúng tôi qua Facebook" class="ctrlq fb-button">
+    <a href="https://www.facebook.com/Du-l%E1%BB%8Bch-Vi%E1%BB%87t-Nam-490062761481349" title="Gửi tin nhắn cho chúng tôi qua Facebook" class="ctrlq fb-button">
         <div class="bubble">1</div>
         <div class="bubble-msg">Bạn cần hỗ trợ?</div>
     </a></div>

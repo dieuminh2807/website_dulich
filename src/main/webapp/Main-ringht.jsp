@@ -19,6 +19,15 @@
     <c:when test="${requestScope.main_right == 'dattourthanhcong'}">
         <jsp:include page="dattourthanhcong.jsp"></jsp:include>
     </c:when>
+    <c:when test="${requestScope.main_right == 'gioithieu'}">
+        <jsp:include page="menu/gioithieu.jsp"></jsp:include>
+    </c:when>
+    <c:when test="${requestScope.main_right == 'camnangdulich'}">
+        <jsp:include page="menu/camnangdulich.jsp"></jsp:include>
+    </c:when>
+    <c:when test="${requestScope.main_right == 'lienhe'}">
+        <jsp:include page="menu/lienhe.jsp"></jsp:include>
+    </c:when>
     <c:otherwise>
         <jsp:include page="Default-main-right.jsp"></jsp:include>
     </c:otherwise>
