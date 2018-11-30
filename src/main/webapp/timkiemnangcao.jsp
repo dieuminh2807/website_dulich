@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html; charset=UTF-8" %>
 <div class="s-form-search" id="timkiemnangcaoForm" >
     <form action="/ktimkiem?action=nangcao" method="post">
@@ -6,10 +7,10 @@
                 <label>Điểm đến</label>
                 <div>
                     <select class="form-control" name="diemdenSearch">
-                        <option >--Tất cả--</option>
-                        <option value="Vũng Tàu">Vũng Tàu</option>
-                        <option value="Phú Quốc">Phú Quốc</option>
-                        <option value="Đồng Nai">Đồng Nai</option>
+                        <option>--Tất cả--</option>
+                        <c:forEach items="${requestScope.tour}" var="tour" begin="0" end="15">
+                        <option value="${tour.tenTour}">${tour.tenTour}</option>
+                        </c:forEach>
                     </select>
                 </div>
             </div>
