@@ -15,6 +15,9 @@ public abstract class BaseServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        req.setCharacterEncoding("UTF-8");
+        List<ChiTietTour> tour = TourDB.AllTour();
+        req.setAttribute("tour",tour);
         Map<String,String> listLoaiTour = TourDB.getListMaLoaiTour();
         req.setAttribute("listLoaiTour", listLoaiTour);
         List<ChiTietTour> danhSach1 = TourDB.getTourListByMaLoai("moi");
