@@ -5,18 +5,30 @@
         <li data-target="#demo" data-slide-to="0" class="active"></li>
         <li data-target="#demo" data-slide-to="1"></li>
         <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+        <li data-target="#demo" data-slide-to="4"></li>
+        <li data-target="#demo" data-slide-to="5"></li>
     </ul>
 
     <!-- The slideshow -->
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="/static/image/hcdtrangchu/Ha_long_new.jpeg" alt="Los Angeles">
+            <img src="/static/image/hcdtrangchu/hinhbanner1.jpg" alt="">
         </div>
         <div class="carousel-item">
-            <img src="/static/image/hcdtrangchu/Nha_trang_new.jpeg" alt="Chicago">
+            <img src="/static/image/hcdtrangchu/hinhbanner2.jpg" alt="">
         </div>
         <div class="carousel-item">
-            <img src="/static/image/hcdtrangchu/Phu-Quoc-new.jpeg" alt="New York">
+            <img src="/static/image/hcdtrangchu/hinhbanner3.jpg" alt="">
+        </div>
+        <div class="carousel-item">
+            <img src="/static/image/hcdtrangchu/hinhbanner4.jpg" alt="">
+        </div>
+        <div class="carousel-item">
+            <img src="/static/image/hcdtrangchu/hinhbanner5.jpg" alt="">
+        </div>
+        <div class="carousel-item">
+            <img src="/static/image/hcdtrangchu/hinhbanner6.jpg" alt="">
         </div>
     </div>
 

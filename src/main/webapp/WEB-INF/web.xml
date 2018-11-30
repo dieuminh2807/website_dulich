@@ -72,6 +72,40 @@
         <servlet-class>TimKiem</servlet-class>
     </servlet>
 
+    <servlet-mapping>
+        <servlet-name>gioithieu</servlet-name>
+        <url-pattern>/menu/gioithieu</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>gioithieu</servlet-name>
+        <servlet-class>menu.GioiThieu</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>camnangdulich</servlet-name>
+        <url-pattern>/menu/camnangdulich</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>camnangdulich</servlet-name>
+        <servlet-class>menu.CamNangDuLich</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>lienhe</servlet-name>
+        <url-pattern>/menu/lienhe</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>lienhe</servlet-name>
+        <servlet-class>menu.LienHe</servlet-class>
+    </servlet>
+
+
+
+
+
 
 
 

@@ -57,11 +57,10 @@
 <br/>
 
 <div class="fb-comments"
-     data-href="https://www.facebook.com/Du-l%E1%BB%8Bch-Vi%E1%BB%87t-Nam-490062761481349/?modal=admin_todo_tour"
+     data-href="https://www.facebook.com/Du-l%E1%BB%8Bch-Vi%E1%BB%87t-Nam-490062761481349"
      data-width="1110" data-numposts="5"></div>
 
 
-<div id="fb-root"></div>
 <script>(function (d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
