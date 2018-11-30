@@ -122,6 +122,21 @@
 <br/>
 
 
+<div class="fb-like" data-href="https://www.facebook.com/Du-l%E1%BB%8Bch-Vi%E1%BB%87t-Nam-490062761481349"
+     data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.2';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
 <style>.fb-livechat, .fb-widget {
     display: none
 }
@@ -250,10 +265,12 @@
     <div class="ctrlq fb-overlay"></div>
     <div class="fb-widget">
         <div class="ctrlq fb-close"></div>
-        <div class="fb-page" data-href="https://www.facebook.com/Du-l%E1%BB%8Bch-Vi%E1%BB%87t-Nam-490062761481349" data-tabs="messages" data-width="360"
+        <div class="fb-page" data-href="https://www.facebook.com/Du-l%E1%BB%8Bch-Vi%E1%BB%87t-Nam-490062761481349"
+             data-tabs="messages" data-width="360"
              data-height="400" data-small-header="true" data-hide-cover="true" data-show-facepile="false"></div>
     </div>
-    <a href="https://www.facebook.com/Du-l%E1%BB%8Bch-Vi%E1%BB%87t-Nam-490062761481349" title="Gửi tin nhắn cho chúng tôi qua Facebook" class="ctrlq fb-button">
+    <a href="https://www.facebook.com/Du-l%E1%BB%8Bch-Vi%E1%BB%87t-Nam-490062761481349"
+       title="Gửi tin nhắn cho chúng tôi qua Facebook" class="ctrlq fb-button">
         <div class="bubble">1</div>
         <div class="bubble-msg">Bạn cần hỗ trợ?</div>
     </a></div>

@@ -10,32 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1943d23-e4fd-42ae-ba4f-d94281478c29" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/servlet/menu/CamNangDuLich.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/servlet/menu/GioiThieu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/servlet/menu/LienHe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/menu/camnangdulich.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/menu/gioithieu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/menu/huongdandattour.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/menu/lienhe.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/effect.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/navBar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/hcdtrangchu/hinhbanner1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/hcdtrangchu/hinhbanner2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/hcdtrangchu/hinhbanner3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/hcdtrangchu/hinhbanner4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/hcdtrangchu/hinhbanner5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/hcdtrangchu/hinhbanner6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/hinhto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/navBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Default-main-right.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Default-main-right.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Main-ringht.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Main-ringht.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/phone.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/phone.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/banner.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/banner.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/newStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/newStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/image/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/image/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/chi-tiet-tour.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/chi-tiet-tour.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/menu/huongdandattour.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/menu/huongdandattour.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,17 +45,17 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="253" column="112" selection-start-line="253" selection-start-column="112" selection-end-line="253" selection-end-column="112" />
+            <state relative-caret-position="120">
+              <caret line="124" column="105" selection-start-line="124" selection-start-column="32" selection-end-line="124" selection-end-column="105" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="huongdandattour.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/menu/huongdandattour.jsp">
+      <file leaf-file-name="chi-tiet-tour.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/chi-tiet-tour.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="151" column="82" selection-start-line="151" selection-start-column="82" selection-end-line="151" selection-end-column="82" />
+            <state relative-caret-position="48">
+              <caret line="59" column="89" selection-start-line="59" selection-start-column="89" selection-end-line="59" selection-end-column="89" />
             </state>
           </provider>
         </entry>
@@ -116,6 +93,7 @@
       <find>nav-item</find>
       <find>fb-root</find>
       <find>target</find>
+      <find>autoLogAppEvents=1</find>
     </findStrings>
     <replaceStrings>
       <replace>fa-</replace>
@@ -135,6 +113,7 @@
       <replace>fb-root</replace>
       <replace>fb-credit</replace>
       <replace>target</replace>
+      <replace>autoLogAppEvents=1</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/main/servlet/admin</dir>
@@ -176,7 +155,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/admin/thongke.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/dattour.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/footer.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/chi-tiet-tour.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/css/newStyle.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/navBar.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/js/navBar.js" />
@@ -197,6 +175,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/Main-ringht.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/menu/huongdandattour.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/chi-tiet-tour.jsp" />
       </list>
     </option>
   </component>
@@ -253,7 +232,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -314,6 +292,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -603,12 +582,12 @@
       <workItem from="1543495316007" duration="8858000" />
       <workItem from="1543504360428" duration="10000" />
       <workItem from="1543544678078" duration="2809000" />
-      <workItem from="1543550003463" duration="222000" />
+      <workItem from="1543550003463" duration="4155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="466836000" />
+    <option name="totallyTimeSpent" value="470991000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -636,19 +615,19 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4980048" weight="0.45" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32931036" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3275862" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32931036" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32931036" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49884528" weight="0.39016393" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49884528" visible="true" weight="0.39016393" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32931036" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26895452" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="Learn" order="6" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.3275862" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -906,16 +885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/chi-tiet-tour.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#2;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/navBar.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/navBar.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1036,17 +1005,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/menu/huongdandattour.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="253" column="112" selection-start-line="253" selection-start-column="112" selection-end-line="253" selection-end-column="112" />
+        <state relative-caret-position="120">
+          <caret line="124" column="105" selection-start-line="124" selection-start-column="32" selection-end-line="124" selection-end-column="105" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/menu/huongdandattour.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/chi-tiet-tour.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="151" column="82" selection-start-line="151" selection-start-column="82" selection-end-line="151" selection-end-column="82" />
+        <state relative-caret-position="48">
+          <caret line="59" column="89" selection-start-line="59" selection-start-column="89" selection-end-line="59" selection-end-column="89" />
         </state>
       </provider>
     </entry>
