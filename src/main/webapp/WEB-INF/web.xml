@@ -6,30 +6,30 @@
         version="2.5">
     <display-name>Archetype Created Web Application</display-name>
 
-    <servlet>
-        <description></description>
-        <display-name>homepage</display-name>
-        <servlet-name>indexServlet</servlet-name>
-        <servlet-class>IndexServlet</servlet-class>
-        <load-on-startup>1</load-on-startup>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>indexServlet</servlet-name>
-        <url-pattern></url-pattern>
-    </servlet-mapping>
-    <!--<welcome-file-list>-->
-        <!--<welcome-file>indexpath</welcome-file>-->
-    <!--</welcome-file-list>-->
-
-    <!--<servlet-mapping>-->
-        <!--<servlet-name>indexServlet</servlet-name>-->
-        <!--<url-pattern>/indexpath</url-pattern>-->
-    <!--</servlet-mapping>-->
-
     <!--<servlet>-->
+        <!--<description></description>-->
+        <!--<display-name>homepage</display-name>-->
         <!--<servlet-name>indexServlet</servlet-name>-->
         <!--<servlet-class>IndexServlet</servlet-class>-->
+        <!--<load-on-startup>1</load-on-startup>-->
     <!--</servlet>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>indexServlet</servlet-name>-->
+        <!--<url-pattern></url-pattern>-->
+    <!--</servlet-mapping>-->
+    <welcome-file-list>
+        <welcome-file>indexpath</welcome-file>
+    </welcome-file-list>
+
+    <servlet-mapping>
+        <servlet-name>indexServlet</servlet-name>
+        <url-pattern>/indexpath</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>indexServlet</servlet-name>
+        <servlet-class>IndexServlet</servlet-class>
+    </servlet>
 
     <servlet>
         <servlet-name>xulydattour</servlet-name>
