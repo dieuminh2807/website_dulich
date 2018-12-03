@@ -49,6 +49,7 @@ public class TourDB {
                 chitiettour.setKhoihanh(khoihanh);
                 chitiettour.setPhuongtien(phuongtien);
                 chitiettour.setKhachsan(khachsan);
+                
                 chitiettour.setHinhshow(hinhshow);
 
                 resultList.add(chitiettour);
