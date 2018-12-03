@@ -19,7 +19,8 @@ public class DonHangDB {
             pstm.setInt(4,sotrevua);
             pstm.setInt(5,sotrenho);
             pstm.setLong(6,tongtien);
-            pstm.setDate(7, new java.sql.Date(ngaykhoihanh.getTime()));
+            long ngayKhoiHanhMilis = ngaykhoihanh == null  ? new Date().getTime() : ngaykhoihanh.getTime();
+            pstm.setDate(7, new java.sql.Date(ngayKhoiHanhMilis));
             pstm.setString(8,thanhtoan);
             pstm.setString(9,ghichu);
             ketqua = pstm.executeUpdate();
