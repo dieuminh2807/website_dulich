@@ -196,6 +196,30 @@
     </servlet-mapping>
 
 
+
+    <servlet>
+        <servlet-name>mail</servlet-name>
+        <servlet-class>main.servlet.admin.GuiMailChoKhach</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>mail</servlet-name>
+        <url-pattern>/admin/mail</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>formmail</servlet-name>
+        <servlet-class>main.servlet.admin.LoadFormMail</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>formmail</servlet-name>
+        <url-pattern>/admin/formmail</url-pattern>
+    </servlet-mapping>
+
+
+
+
     <jsp-config>
         <jsp-property-group>
             <url-pattern>*.jsp</url-pattern>
