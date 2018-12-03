@@ -1,4 +1,4 @@
-package main.servlet.admin;
+package admin;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
