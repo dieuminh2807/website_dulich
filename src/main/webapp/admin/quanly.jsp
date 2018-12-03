@@ -39,6 +39,9 @@
     <c:when test="${requestScope.main_type == 'nguoidat'}">
         <jsp:include page="thongtinkhachhhang.jsp"></jsp:include>
     </c:when>
+    <c:when test="${requestScope.main_type == 'formmail'}">
+        <jsp:include page="guimail.jsp"></jsp:include>
+    </c:when>
 </c:choose>
 
 <script>

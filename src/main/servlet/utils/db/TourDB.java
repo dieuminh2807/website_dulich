@@ -20,7 +20,7 @@ public class TourDB {
             return resultList;
         }
         String sql = "select * from tour where tenloaitour like ? or tentour like ?";
-        Connection con = DatabaseUtil.getConnection();
+        Connection con = utils.db.DatabaseUtil.getConnection();
         try {
             PreparedStatement pstm = con.prepareStatement(sql);
             pstm.setString(1, "%" + searchValue + "%");
@@ -54,7 +54,7 @@ public class TourDB {
                 resultList.add(chitiettour);
             }
 
-            DatabaseUtil.closeConnection();
+            utils.db.DatabaseUtil.closeConnection();
         } catch (Exception e) {
             resultList = new ArrayList<>();
         }
@@ -86,7 +86,7 @@ public class TourDB {
                 sql += " AND giavenguoilon > 12000000";
             }
         }
-        Connection con = DatabaseUtil.getConnection();
+        Connection con = utils.db.DatabaseUtil.getConnection();
         try {
             PreparedStatement pstm = con.prepareStatement(sql);
             int i = 1;
@@ -126,7 +126,7 @@ public class TourDB {
                 resultList.add(chitiettour);
             }
 
-            DatabaseUtil.closeConnection();
+            utils.db.DatabaseUtil.closeConnection();
         } catch (Exception e) {
             resultList = new ArrayList<>();
         }
@@ -137,7 +137,7 @@ public class TourDB {
     public static ChiTietTour hienThiCCT(String matour) {
         ChiTietTour chiTietTour = new ChiTietTour();
         String sql = "select * from tour where matour = ?";
-        Connection con = DatabaseUtil.getConnection();
+        Connection con = utils.db.DatabaseUtil.getConnection();
         try {
             PreparedStatement pstm = con.prepareStatement(sql);
             pstm.setString(1, matour);
@@ -195,7 +195,7 @@ public class TourDB {
     public static List<ChiTietTour> getTourListByMaLoai(String maloaitour) {
         List<ChiTietTour> cacTour = new ArrayList<>();
         String sql = "select * from tour where maloaitour = ?";
-        Connection con = DatabaseUtil.getConnection();
+        Connection con = utils.db.DatabaseUtil.getConnection();
         try {
             PreparedStatement pstm = con.prepareStatement(sql);
             pstm.setString(1, maloaitour);
@@ -243,7 +243,7 @@ public class TourDB {
 
         Map<String, String> result = new HashMap<>();
 
-        Connection con = DatabaseUtil.getConnection();
+        Connection con = utils.db.DatabaseUtil.getConnection();
         try {
             PreparedStatement pstm = con.prepareStatement(sql);
 
@@ -264,7 +264,7 @@ public class TourDB {
     public static ChiTietTour tenMaLoai(String maloaitour) {
         ChiTietTour cct = new ChiTietTour();
         try {
-            PreparedStatement pstm = DatabaseUtil.getConnection().prepareStatement("select * from tour where maloaitour = ?");
+            PreparedStatement pstm = utils.db.DatabaseUtil.getConnection().prepareStatement("select * from tour where maloaitour = ?");
             pstm.setString(1, maloaitour);
             ResultSet resultSet = pstm.executeQuery();
             if (resultSet.next()) {
@@ -283,7 +283,7 @@ public class TourDB {
     public static List<ChiTietTour> AllTour() {
         List<ChiTietTour> cctour = new ArrayList<>();
         String sql = "select * from tour";
-        Connection con = DatabaseUtil.getConnection();
+        Connection con = utils.db.DatabaseUtil.getConnection();
         try {
             PreparedStatement pstm = con.prepareStatement(sql);
             ResultSet rs = pstm.executeQuery();

@@ -20,6 +20,6 @@ public class GuiMailChoKhach extends base.BaseServlet {
         String user = req.getParameter("user");
         String pass = req.getParameter("pass");
         GuiMailDB.send(to,subject, message, user, pass);
-        out.println("Mail send successfully");
+        req.getRequestDispatcher("/admin").forward(req, resp);
     }
 }

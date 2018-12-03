@@ -249,7 +249,7 @@
             <input id="tiemmat" name="cachThanhToan" type="radio" value="TIEN_MAT">Tiền mặt
         </div>
         <div class="radio">
-            <input id="thanhtoanonline" name="cachThanhToan" type="radio" value="CHUYEN_KHOAN">Thanh toán trực tuyến
+            <input id="thanhtoanonline" name="cachThanhToan" type="radio" value="CHUYEN_KHOAN">Chuyển khoản
         </div>
         <div class="row" id="hienthithanhtoan">
             <div class="container">
@@ -260,74 +260,15 @@
                             <div class="card-body p-5">
                                 <ul class="nav bg-light nav-pills rounded nav-fill mb-3" role="tablist">
                                     <li class="nav-item">
-                                        <a class="nav-link active" data-toggle="pill" href="#nav-tab-card">
-                                            <i class="fa fa-credit-card"></i> Credit Card</a></li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-toggle="pill" href="#nav-tab-paypal">
-                                            <i class="fa fa-paypal"></i> Paypal</a></li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-toggle="pill" href="#nav-tab-bank">
-                                            <i class="fa fa-university"></i> Bank Transfer</a></li>
+                                        <a class="nav-link active" data-toggle="pill" href="#nav-tab-bank">
+                                            <i class="fa fa-university"></i>Quý khách chuyển tiền vào tài khoản sau</a></li>
                                 </ul>
 
                                 <div class="tab-content">
-                                    <div class="tab-pane fade show active" id="nav-tab-card">
-                                        <form role="form">
-                                            <div class="form-group">
-                                                <label>Họ và tên</label>
-                                                <input type="text" class="form-control" name="username" placeholder=""
-                                                       required="">
-                                            </div> <!-- form-group.// -->
-
-                                            <div class="form-group">
-                                                <label>Số tài khoản</label>
-                                                <div class="input-group">
-                                                    <input type="text" class="form-control" name="cardNumber"
-                                                           placeholder="">
-                                                    <div class="input-group-append">
-                                                        <span class="input-group-text text-muted">
-                                                            <i class="fa fa-cc-visa"></i>   <i class="fa fa-cc-amex"></i>  
-                                                            <i class="fa fa-cc-mastercard"></i>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div> <!-- form-group.// -->
-
-                                            <div class="row">
-                                                <div class="col-sm-8">
-                                                    <div class="form-group">
-                                                        <label><span class="hidden-xs">Hạn của thẻ</span> </label>
-                                                        <div class="input-group">
-                                                            <input type="number" class="form-control" placeholder="MM"
-                                                                   name="">
-                                                            <input type="number" class="form-control" placeholder="YY"
-                                                                   name="">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="form-group">
-                                                        <label data-toggle="tooltip" title=""
-                                                               data-original-title="3 digits code on back side of the card">CVV
-                                                            <i class="fa fa-question-circle"></i></label>
-                                                        <input type="number" class="form-control" required="">
-                                                    </div> <!-- form-group.// -->
-                                                </div>
-                                            </div> <!-- row.// -->
-                                            <button class="subscribe btn btn-primary btn-block" type="button"> Xác nhận
-                                            </button>
-                                        </form>
-                                    </div> <!-- tab-pane.// -->
-                                    <div class="tab-pane fade" id="nav-tab-paypal">
-                                        <p>Paypal dễ dàng thanh toán online</p>
-                                        <p>
-                                            <button type="button" class="btn btn-primary"><i class="fa fa-paypal"></i>
-                                                Đăng nhập Paypal
-                                            </button>
-                                        </p>
-                                    </div>
-                                    <div class="tab-pane fade" id="nav-tab-bank">
-                                        <p>Chi tiết tài khoản ngân hàng</p>
+                                    <div class="tab-pane fade show active" id="nav-tab-bank">
+                                        <p><dt>Lưu ý:</dt> Quý khách chuyển tiền sau khi nhận được email của công ty, vui lòng ghi rõ nội dung chuyển khoản: Họ tên_
+Số điện thoại_Tên tour đăng ký</p>
+                                        <p><dt><H3>Chi tiết tài khoản ngân hàng</H3></dt></p>
                                         <dl class="param">
                                             <dt>Ngân hàng:</dt>
                                             <dd> THE WORLD BANK</dd>
@@ -336,11 +277,6 @@
                                             <dt>Số tài khoản:</dt>
                                             <dd> 12345678912345</dd>
                                         </dl>
-                                        <dl class="param">
-                                            <dt>IBAN:</dt>
-                                            <dd> 123456789</dd>
-                                        </dl>
-                                        <p> </p>
                                     </div> <!-- tab-pane.// -->
                                 </div> <!-- tab-content .// -->
                             </div> <!-- card-body.// -->
