@@ -1,6 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <button onclick="themtour()" type="button"
-        class="btn btn-warning float-left mx-2" style="min-width: 110px; max-width: 110px">Thêm đặt tour
+        class="btn btn-warning float-left mx-2" style="min-width: 130px; max-width: 130px">Thêm đặt tour
 </button>
 <table class="table table-bordered" id="dataTable">
     <thead>
