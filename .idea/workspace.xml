@@ -9,7 +9,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/webapp/admin/quanlydattour.jsp" line="4" mnemonic="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1943d23-e4fd-42ae-ba4f-d94281478c29" name="Default" comment="" />
+    <list default="true" id="b1943d23-e4fd-42ae-ba4f-d94281478c29" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/chi-tiet-tour.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/chi-tiet-tour.jsp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,7 +40,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -47,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chi-tiet-tour.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="chi-tiet-tour.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/chi-tiet-tour.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="70" lean-forward="true" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+            <state relative-caret-position="199">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
             </state>
           </provider>
         </entry>
@@ -170,9 +172,9 @@
         <option value="$PROJECT_DIR$/src/main/servlet/utils/db/DonHangDB.java" />
         <option value="$PROJECT_DIR$/src/main/servlet/XuLyDatTour.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/phone.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/chi-tiet-tour.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/like-share.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/chi-tiet-tour.jsp" />
       </list>
     </option>
   </component>
@@ -579,12 +581,12 @@
       <workItem from="1543759602562" duration="3301000" />
       <workItem from="1543848987707" duration="1553000" />
       <workItem from="1543852098727" duration="757000" />
-      <workItem from="1543892863117" duration="8707000" />
+      <workItem from="1543892863117" duration="9395000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="508623000" />
+    <option name="totallyTimeSpent" value="509311000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -937,13 +939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/chi-tiet-tour.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="70" lean-forward="true" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/danhsachtourtheoloai.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -972,6 +967,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="121" column="5" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/chi-tiet-tour.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
