@@ -30,7 +30,7 @@
             <td>${dattour.ngaydat}</td>
             <td>${dattour.thanhtoan}</td>
             <td>
-                <button onclick="xxx('${dattour.maTourdb}')" type="button"
+                <button onclick="hhh('${dattour.madonhang}')" type="button"
                         class="btn btn-primary float-left mx-2">Sửa
                 </button>
                 <a href="#">
