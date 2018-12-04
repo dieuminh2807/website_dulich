@@ -1,4 +1,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<button onclick="themtour()" type="button"
+        class="btn btn-warning float-left mx-2" style="min-width: 110px; max-width: 110px">Thêm đặt tour
+</button>
 <table class="table table-bordered" id="dataTable">
     <thead>
     <tr>
@@ -9,7 +12,7 @@
         <th>Ngày khởi hành</th>
         <th>Ngày đặt</th>
         <th>Thanh toán</th>
-        <th style="min-width: 210px; max-width: 210px">Quản lý</th>
+        <th style="min-width: 110px">Quản lý</th>
     </tr>
     </thead>
     <tbody>
@@ -27,14 +30,11 @@
             <td>${dattour.ngaydat}</td>
             <td>${dattour.thanhtoan}</td>
             <td>
-                <button onclick="yyy('${dattour.madonhang}')" type="button"
-                        class="btn btn-primary float-left mx-2 " style="min-width: 50px; max-width: 50px">Sửa
+                <button onclick="xxx('${dattour.maTourdb}')" type="button"
+                        class="btn btn-primary float-left mx-2">Sửa
                 </button>
-                <a href="/admin/quanlydattour?action=xoa&madonhang=${dattour.madonhang}">
-                    <button type="button" class="btn btn-danger float-left" style="min-width: 50px; max-width: 50px">Xóa</button>
-                </a>
-                <a href="/admin/formmail">
-                    <button type="button" class="btn btn-success float-left mx-2" style="min-width: 90px; max-width: 90px">Gửi mail</button>
+                <a href="#">
+                    <button type="button" class="btn btn-danger float-left">Xóa</button>
                 </a>
             </td>
 

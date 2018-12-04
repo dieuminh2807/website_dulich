@@ -1,7 +1,4 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<button onclick="themtour()" type="button"
-        class="btn btn-warning float-left mx-2">Thêm khách hàng
-</button>
 <table class="table table-bordered" id="dataTable">
     <thead>
     <tr>
@@ -10,7 +7,7 @@
         <th>Số điện thoại</th>
         <th>Địa chỉ</th>
         <th>Email</th>
-        <th style="min-width: 110px">Quản lý</th>
+        <th style="min-width: 190px; max-width: 190px">Quản lý</th>
     </tr>
     </thead>
     <tbody>
@@ -26,11 +23,14 @@
             <td>${nguoidat.diachi}</td>
             <td>${nguoidat.email}</td>
             <td>
-                <button onclick="suachitiettour('${nguoidat.madonhang}')" type="button"
-                        class="btn btn-primary float-left mx-2">Sửa
+                <a href="/admin/formmail">
+                    <button type="button" class="btn btn-success float-left mx-2" style="min-width: 70px; max-width: 70px">Thêm</button>
+                </a>
+                <button onclick="yyy('${dattour.madonhang}')" type="button"
+                        class="btn btn-primary float-left mx-2 " style="min-width: 50px; max-width: 50px">Sửa
                 </button>
-                <a href="/admin/quanlytour?action=xoa&matour=${nguoidat.madonhang}">
-                    <button type="button" class="btn btn-danger float-left">Xóa</button>
+                <a href="/admin/quanlydattour?action=xoa&madonhang=${dattour.madonhang}">
+                    <button type="button" class="btn btn-danger float-left" style="min-width: 50px; max-width: 50px">Xóa</button>
                 </a>
             </td>
 
