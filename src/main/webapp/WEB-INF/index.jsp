@@ -122,7 +122,7 @@
 <br/>
 
 
-<div class="fb-like" data-href="https://www.facebook.com/Du-l%E1%BB%8Bch-Vi%E1%BB%87t-Nam-490062761481349"
+<div class="fb-like" data-href="http://dulich.j.layershift.co.uk/xemchitiettour?matour=${tour.maTourdb}"
      data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
 
 <script>(function (d, s, id) {

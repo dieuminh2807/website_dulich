@@ -9,10 +9,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/webapp/admin/quanlydattour.jsp" line="4" mnemonic="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1943d23-e4fd-42ae-ba4f-d94281478c29" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="b1943d23-e4fd-42ae-ba4f-d94281478c29" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,7 +41,7 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="105">
               <caret line="129" column="37" lean-forward="true" selection-start-line="129" selection-start-column="37" selection-end-line="129" selection-end-column="37" />
             </state>
           </provider>
@@ -582,12 +579,12 @@
       <workItem from="1543759602562" duration="3301000" />
       <workItem from="1543848987707" duration="1553000" />
       <workItem from="1543852098727" duration="757000" />
-      <workItem from="1543892863117" duration="3034000" />
+      <workItem from="1543892863117" duration="3601000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="502950000" />
+    <option name="totallyTimeSpent" value="503517000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -972,7 +969,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="105">
           <caret line="129" column="37" lean-forward="true" selection-start-line="129" selection-start-column="37" selection-end-line="129" selection-end-column="37" />
         </state>
       </provider>
