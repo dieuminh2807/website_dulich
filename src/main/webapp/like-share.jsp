@@ -1,10 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <c:choose>
-    <c:when test="${requestScope.main_right == 'chitiettour'}">
-        <div class="fb-like" data-href="http://dulich.j.layershift.co.uk/xemchitiettour?matour=${tour.maTourdb}"
-             data-layout="button_count" data-action="like" data-size="large" data-show-faces="true"
-             data-share="true"></div>
-    </c:when>
     <c:otherwise>
         <div class="fb-like" data-href="http://dulich.j.layershift.co.uk/" data-layout="button_count" data-action="like"
              data-size="large" data-show-faces="true" data-share="true"></div>
