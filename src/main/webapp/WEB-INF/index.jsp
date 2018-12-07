@@ -96,7 +96,7 @@
         <div class="col-5">
             <div style="width:100%; height: 350px;">
                 <div class="row">
-                    <c:forEach items="${requestScope.tourlist3}" var="tour" begin="0" end="3">
+                    <c:forEach items="${requestScope.tourlist6}" var="tour" begin="0" end="3">
                         <div class="col-6" style="max-height: 250px; margin-bottom: 10px;  min-height: 165px">
                             <div class="hovereffect1">
                                 <img class="img-responsive" src="../${tour.hinhshow}" alt="Card image cap"

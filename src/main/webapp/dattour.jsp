@@ -1,21 +1,23 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<div class="card-header bg-primary text-white">${requestScope.chiTietTourData.tenTour}</div>
-<br/>
-<div class="row">
-    <div class="col-5"><img style="height: 210px" src="${requestScope.chiTietTourData.hinhshow}" class="img-thumbnail"
-                            alt="Cinque Terre"></div>
-    <div class="col-7">
-        <span class="fa fa-one-day"></span>
-        <p>Giá tour: ${requestScope.chiTietTourData.giavenguoilon} VNĐ</p>
-        <span class="fa fa-one-day"></span>
-        <p>Thời gian: ${requestScope.chiTietTourData.thoigian}</p>
-        <span class="fa fa-one-day"></span>
-        <p>Khởi hành: ${requestScope.chiTietTourData.khoihanh}</p>
-        <span class="fa fa-one-day"></span>
-        <p>Phương tiện: ${requestScope.chiTietTourData.phuongtien}</p>
-        <span class="fa fa-one-day"></span>
-        <p>Khách sạn: ${requestScope.chiTietTourData.khachsan}</p>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<div class="border border-success">
+    <div class="card-header bg-primary text-white">${requestScope.chiTietTourData.tenTour}</div>
+    <br/>
+    <div class="row">
+        <div class="col-5"><img style="max-height: 210px;min-height: 210px;max-width: 280px;min-width: 280px;;margin: 0px 20px 20px 20px"
+                                src="${requestScope.chiTietTourData.hinhshow}"
+                                class="img-thumbnail"
+                                alt="Cinque Terre"></div>
+        <div class="col-7">
+            <p>Giá tour: ${requestScope.chiTietTourData.giavenguoilon} VNĐ</p>
+            <p>Thời gian: ${requestScope.chiTietTourData.thoigian}</p>
+            <p>Khởi hành: ${requestScope.chiTietTourData.khoihanh}</p>
+            <p>Phương tiện: ${requestScope.chiTietTourData.phuongtien}</p>
+            <p>Khách sạn: ${requestScope.chiTietTourData.khachsan}</p>
+        </div>
     </div>
+    <span id="donGiaNguoiLon" class="d-none">${requestScope.chiTietTourData.giavenguoilon}</span>
+    <span id="donGiaTreVua" class="d-none">${requestScope.chiTietTourData.giavetreem}</span>
 </div>
 <br/>
 <form action="/xulydattour?matour=${requestScope.chiTietTourData.maTourdb}" method="post">
@@ -54,7 +56,7 @@
                       </button>
                   </span>
                         <input type="text" name="soNguoiLon" class="form-control songuoi-number text-center" value="1"
-                               min="0" max="50">
+                               min="0" max="50" onchange="reCalculateTotalAmount();"/>
                         <span class="input-group-btn">
                       <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="soNguoiLon">
                           <span class="fa fa-plus"></span>
@@ -62,7 +64,9 @@
                     </span>
                     </div>
                 </td>
-                <td>1,690,000đ</td>
+                <%--<td>1,690,000đ</td>--%>
+                <td><fmt:formatNumber type="number" pattern="###,### VNĐ"
+                                      value="${requestScope.chiTietTourData.giavenguoilon}"/></td>
             </tr>
             <tr>
                 <td>Trẻ từ 5-10 tuổi</td>
@@ -75,7 +79,7 @@
                   </span>
                         <input type="text" name="soTreVua" class="form-control songuoi-number text-center" value="0"
                                min="0"
-                               max="50">
+                               max="50" onchange="reCalculateTotalAmount();"/>
                         <span class="input-group-btn">
                       <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="soTreVua">
                           <span class="fa fa-plus"></span>
@@ -83,7 +87,11 @@
                     </span>
                     </div>
                 </td>
-                <td>1,183,000đ</td>
+                <%--<td>1,183,000đ</td>--%>
+                <td>
+                    <fmt:formatNumber type="number" pattern="###,### VNĐ"
+                                      value="${requestScope.chiTietTourData.giavetreem}"/>
+                </td>
             </tr>
             <tr>
                 <td>Trẻ dưới 5 tuổi</td>
@@ -96,7 +104,7 @@
                   </span>
                         <input type="text" name="soTreNho" class="form-control songuoi-number text-center" value="0"
                                min="0"
-                               max="50">
+                               max="50" onchange="reCalculateTotalAmount();">
                         <span class="input-group-btn">
                       <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="soTreNho">
                           <span class="fa fa-plus"></span>
@@ -104,12 +112,15 @@
                     </span>
                     </div>
                 </td>
-                <td>0đ</td>
+                <%--<td>0đ</td>--%>
+                <td>Miễn phí</td>
             </tr>
             <tr>
                 <td>Tổng</td>
                 <td><span id="tongsonguoi"></span></td>
-                <td><span id="tongtien"></span></td>
+                <td>
+                    <span id="tongtien"></span>
+                </td>
             </tr>
             </tbody>
         </table>
@@ -144,7 +155,7 @@
             <div class="col-4">
                 <div class="form-group">
                     <div class="input-group date" id="ngayKhoiHanh" data-target-input="nearest">
-                        <input name="ngayKhoiHanh" type="text" readonly required
+                        <input name="ngayKhoiHanh" type="text" required
                                class="form-control datetimepicker-input"
                                data-target="#ngayKhoiHanh"/>
                         <div class="input-group-append" data-target="#ngayKhoiHanh" data-toggle="datetimepicker">
@@ -261,14 +272,21 @@
                                 <ul class="nav bg-light nav-pills rounded nav-fill mb-3" role="tablist">
                                     <li class="nav-item">
                                         <a class="nav-link active" data-toggle="pill" href="#nav-tab-bank">
-                                            <i class="fa fa-university"></i>Quý khách chuyển tiền vào tài khoản sau</a></li>
+                                            <i class="fa fa-university"></i>Quý khách chuyển tiền vào tài khoản sau</a>
+                                    </li>
                                 </ul>
 
                                 <div class="tab-content">
                                     <div class="tab-pane fade show active" id="nav-tab-bank">
-                                        <p><dt>Lưu ý:</dt> Quý khách chuyển tiền sau khi nhận được email của công ty, vui lòng ghi rõ nội dung chuyển khoản: Họ tên_
-Số điện thoại_Tên tour đăng ký</p>
-                                        <p><dt><H3>Chi tiết tài khoản ngân hàng</H3></dt></p>
+                                        <p>
+                                            <dt>Lưu ý:</dt>
+                                            Quý khách chuyển tiền sau khi nhận được email của công ty, vui lòng ghi rõ
+                                            nội dung chuyển khoản: Họ tên_
+                                            Số điện thoại_Tên tour đăng ký
+                                        </p>
+                                        <p>
+                                            <dt><H3>Chi tiết tài khoản ngân hàng</H3></dt>
+                                        </p>
                                         <dl class="param">
                                             <dt>Ngân hàng:</dt>
                                             <dd> THE WORLD BANK</dd>

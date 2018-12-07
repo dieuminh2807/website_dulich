@@ -23,9 +23,15 @@ public abstract class BaseServlet extends HttpServlet {
         List<ChiTietTour> danhSach1 = TourDB.getTourListByMaLoai("moi");
         List<ChiTietTour> danhSach2 = TourDB.getTourListByMaLoai("hot");
         List<ChiTietTour> danhsach3 = TourDB.getTourListByMaLoai("cokhuyenmai");
+        List<ChiTietTour> danhSach4 = TourDB.getTourListByMaLoai("bac");
+        List<ChiTietTour> danhSach5 = TourDB.getTourListByMaLoai("trung");
+        List<ChiTietTour> danhsach6 = TourDB.getTourListByMaLoai("nam");
         req.setAttribute("tourlist1",danhSach1);
         req.setAttribute("tourlist2",danhSach2);
         req.setAttribute("tourlist3",danhsach3);
+        req.setAttribute("tourlist4",danhSach4);
+        req.setAttribute("tourlist5",danhSach5);
+        req.setAttribute("tourlist6",danhsach6);
         process(req, resp);
     }
 

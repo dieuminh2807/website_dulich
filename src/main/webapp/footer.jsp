@@ -65,7 +65,7 @@
             <p class="pull-left"> Copyright 2018 Đăng ký bản quyền </p>
             <div class="pull-right">
                 <ul class="nav nav-pills payments">
-                    <li>Chúng tôi chấp nhận:  </li>
+                    <li>Chấp nhận thanh toán:  </li>
                     <li><i class="fa fa-cc-paypal"></i></li>
                     <li><i class="fa fa-cc-mastercard"></i></li>
                     <li><i class="fa fa-cc-amex"></i></li>
