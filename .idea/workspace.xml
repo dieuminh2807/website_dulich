@@ -10,7 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1943d23-e4fd-42ae-ba4f-d94281478c29" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/quanlydattour.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/quanlydattour.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/servlet/base/BaseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/servlet/base/BaseServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/servlet/utils/db/DatabaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/servlet/utils/db/DatabaseUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/servlet/utils/db/TourDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/servlet/utils/db/TourDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Default-main-right.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Default-main-right.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/chi-tiet-tour.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/chi-tiet-tour.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/danhsachtourtheoloai.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/danhsachtourtheoloai.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/dattour.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/dattour.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ketquatimkiemnangcao.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ketquatimkiemnangcao.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/menu/camnangdulich.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/menu/camnangdulich.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/menu/gioithieu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/menu/gioithieu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/xulydattour.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/xulydattour.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/timkiem.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/timkiem.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,54 +54,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="XuLyDatTour.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/servlet/XuLyDatTour.java">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
-              <caret line="114" column="44" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-30">
+              <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dattour.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/dattour.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="quanlydattour.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/quanlydattour.jsp">
+      <file leaf-file-name="quanlytour.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/quanlytour.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="51" lean-forward="true" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
-              <folding>
-                <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#7;n#tr#0;n#thead#0;n#table#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="505">
+              <caret line="163" column="18" selection-start-line="163" selection-start-column="18" selection-end-line="163" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thongtinkhachhhang.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/thongtinkhachhhang.jsp">
+      <file leaf-file-name="Sua.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/servlet/admin/XuLyTourDB/Sua.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="32" column="83" lean-forward="true" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
-              <folding>
-                <element signature="n#style#0;n#th#5;n#tr#0;n#thead#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#a#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#a#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="420">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="quanly.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/quanly.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="Them.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/servlet/admin/XuLyTourDB/Them.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThongTinKhachHang.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/servlet/admin/ThongTinKhachHang.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="92" column="61" lean-forward="true" selection-start-line="92" selection-start-column="61" selection-end-line="92" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XuLyTour.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/servlet/admin/XuLyTour.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="102" column="83" selection-start-line="102" selection-start-column="83" selection-end-line="102" selection-end-column="83" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -125,6 +143,11 @@
       <find>target</find>
       <find>autoLogAppEvents=1</find>
       <find>/plugins/like/disconnect</find>
+      <find>Tổng</find>
+      <find>donGiaNguoiLon</find>
+      <find>date</find>
+      <find>module.exports</find>
+      <find>datetimepicker</find>
     </findStrings>
     <replaceStrings>
       <replace>fa-</replace>
@@ -145,6 +168,7 @@
       <replace>fb-credit</replace>
       <replace>target</replace>
       <replace>autoLogAppEvents=1</replace>
+      <replace>datetimepicker</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/main/servlet/admin</dir>
@@ -156,38 +180,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/footer.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/thanhtoan.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/jQuery/moment.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/xulydattour.js" />
-        <option value="$PROJECT_DIR$/src/main/servlet/XuLyDangXuat.java" />
-        <option value="$PROJECT_DIR$/src/main/servlet/admin/XuLyDangXuat.java" />
-        <option value="$PROJECT_DIR$/src/main/servlet/entity/DatTour.java" />
-        <option value="$PROJECT_DIR$/src/main/servlet/admin/ThongTinKhachHang.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin/quanly.jsp" />
         <option value="$PROJECT_DIR$/src/main/servlet/admin/QuanLyDatTour.java" />
         <option value="$PROJECT_DIR$/src/main/servlet/admin/ThongKeDB.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin/thongke.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/dattour.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/footer.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/css/newStyle.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/navBar.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/js/navBar.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/navBar.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/banner.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/css/navBar.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/css/effect.css" />
         <option value="$PROJECT_DIR$/src/main/servlet/menu/GioiThieu.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/menu/gioithieu.jsp" />
         <option value="$PROJECT_DIR$/src/main/servlet/menu/CamNangDuLich.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Default-main-right.jsp" />
         <option value="$PROJECT_DIR$/src/main/servlet/menu/YKienKhachHang.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/menu/camnangdulich.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/menu/lienhe.jsp" />
         <option value="$PROJECT_DIR$/src/main/servlet/menu/LienHe.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/Main-ringht.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/menu/huongdandattour.jsp" />
-        <option value="$PROJECT_DIR$/src/main/servlet/base/BaseServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/timkiemnangcao.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/servlet/utils/db/DatabaseUtil.java" />
         <option value="$PROJECT_DIR$/src/main/servlet/admin/ThongKe.java" />
@@ -195,18 +204,33 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/servlet/admin/GuiMailChoKhach.java" />
         <option value="$PROJECT_DIR$/src/main/servlet/admin/GuiMailDB.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/servlet/utils/db/DatabaseUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/servlet/utils/db/TourDB.java" />
         <option value="$PROJECT_DIR$/src/main/servlet/utils/db/DonHangDB.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/phone.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/like-share.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/chi-tiet-tour.jsp" />
         <option value="$PROJECT_DIR$/src/main/servlet/XuLyDatTour.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin/thongtinkhachhhang.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin/quanlydattour.jsp" />
+        <option value="$PROJECT_DIR$/src/main/servlet/utils/db/DatabaseUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/menu/gioithieu.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/admin/js/newScript.js" />
+        <option value="$PROJECT_DIR$/src/main/servlet/base/BaseServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/footer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Default-main-right.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/danhsachtourtheoloai.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/menu/camnangdulich.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/effect.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/timkiem.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/ketquatimkiemnangcao.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/chi-tiet-tour.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/dattour.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/xulydattour.js" />
+        <option value="$PROJECT_DIR$/src/main/servlet/utils/db/TourDB.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/servlet/admin/XuLyTourDB/Them.java" />
+        <option value="$PROJECT_DIR$/src/main/servlet/admin/XuLyTour.java" />
+        <option value="$PROJECT_DIR$/src/main/servlet/admin/ThongTinKhachHang.java" />
       </list>
     </option>
   </component>
@@ -263,7 +287,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -302,6 +328,15 @@
               <item name="website-dulich" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="XuLyTourDB" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="website-dulich" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-dulich" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -310,7 +345,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="website-dulich" type="b2602c69:ProjectViewProjectNode" />
@@ -324,8 +359,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -334,10 +367,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/static/image" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/src/main/webapp/static/image/hcdtrangchu" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/static/image" />
       <recent name="$PROJECT_DIR$/src/main/webapp/static/css" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -347,11 +380,11 @@
       <recent name="entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/static/jQuery" />
       <recent name="$PROJECT_DIR$/src/main/webapp/static/image" />
       <recent name="$PROJECT_DIR$/src/main/webapp/admin" />
       <recent name="$PROJECT_DIR$/src/main/webapp/static/image/hcdtrangchu" />
       <recent name="$PROJECT_DIR$/src/main/webapp/static/datatable" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -623,12 +656,22 @@
       <workItem from="1543852098727" duration="757000" />
       <workItem from="1543892863117" duration="10808000" />
       <workItem from="1543916406025" duration="560000" />
-      <workItem from="1543929581977" duration="1561000" />
+      <workItem from="1543929581977" duration="2037000" />
+      <workItem from="1543939204858" duration="750000" />
+      <workItem from="1543975927562" duration="7610000" />
+      <workItem from="1543986835801" duration="2477000" />
+      <workItem from="1543999715687" duration="21380000" />
+      <workItem from="1544054567762" duration="3254000" />
+      <workItem from="1544058007005" duration="136000" />
+      <workItem from="1544088688613" duration="5934000" />
+      <workItem from="1544094974133" duration="5141000" />
+      <workItem from="1544103748251" duration="11665000" />
+      <workItem from="1544140526149" duration="2531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="512845000" />
+    <option name="totallyTimeSpent" value="574199000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -654,21 +697,21 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.24980047" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49720672" weight="0.44827586" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49720672" weight="0.44590163" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32931036" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3262295" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32931036" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32931036" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.54588985" weight="0.40655738" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.54588985" weight="0.4918033" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32931036" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26656026" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28731045" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="Learn" order="6" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.3275862" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -705,8 +748,16 @@
           </properties>
           <option name="timeStamp" value="151" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/servlet/admin/XuLyTourDB/Them.java</url>
+          <line>9</line>
+          <properties class="admin.XuLyTourDB.Them" method="themTour">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="156" />
+      <option name="time" value="171" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -743,103 +794,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/servlet/menu/LienHe.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/banner.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="42" column="6" lean-forward="true" selection-end-line="42" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/menu/camnangdulich.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/menu/lienhe.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/menu/huongdandattour.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/servlet/admin/IndexAdmin.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/servlet/HienThiChiTietTour.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/timkiem.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/servlet/base/BaseServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/servlet/entity/ChiTietTour.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/ketquatimkiemnangcao.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/timkiemnangcao.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#3;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/servlet/utils/db/TourDB.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/servlet/TimKiem.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/servlet/utils/db/DatabaseUtil.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/servlet/admin/IndexAdmin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/servlet/admin/QuanLyDatTour.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-444">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/servlet/admin/ThongTinKhachHang.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/servlet/admin/XuLyChiTietTour.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1388">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/servlet/admin/XuLyDangXuat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/servlet/admin/XuLyLoaiTour.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/servlet/admin/XuLyTour.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1515">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/servlet/admin/XyLyDangNhapAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
@@ -862,13 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -880,27 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/servlet/utils/db/DatabaseUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/servlet/utils/db/TourDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/servlet/base/BaseServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -946,16 +872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/danhsachtourtheoloai.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Default-main-right.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="59" column="102" selection-start-line="59" selection-start-column="78" selection-end-line="59" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/Main-ringht.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -964,20 +880,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/like-share.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/chi-tiet-tour.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="59" column="131" selection-start-line="59" selection-start-column="131" selection-end-line="59" selection-end-column="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="122" column="65" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/servlet/KhachDatTour.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -985,53 +887,245 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/servlet/XuLyDatTour.java">
+    <entry file="file://$PROJECT_DIR$/src/main/servlet/utils/db/DatabaseUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="114" column="44" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/dattour.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/quanlytour.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/servlet/XuLyDatTour.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding>
-            <element signature="n#style#0;n#th#7;n#tr#0;n#thead#0;n#table#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="114" column="44" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/quanly.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/menu/gioithieu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/image/hinhto.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/image/hinhtourdulichmienbac/daocoto/show.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/image/hinhtourdulichmientrung/phuyen/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/thongtinkhachhhang.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="32" column="83" lean-forward="true" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
+        <state relative-caret-position="480">
+          <caret line="32" column="83" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2235">
+          <caret line="149" column="23" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/servlet/admin/XuLyLoaiTour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/js/newScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/servlet/base/BaseServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="67" column="44" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Default-main-right.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="28" column="88" selection-start-line="28" selection-start-column="88" selection-end-line="28" selection-end-column="88" />
           <folding>
-            <element signature="n#style#0;n#th#5;n#tr#0;n#thead#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#a#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#a#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/menu/camnangdulich.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="82" column="18" lean-forward="true" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/effect.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3524">
+          <caret line="336" column="1" selection-start-line="336" selection-start-column="1" selection-end-line="336" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/ketquatimkiemnangcao.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/jQuery/jquery-2.1.4.min.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/jQuery/jquery-3.3.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="1" column="707" selection-start-line="1" selection-start-column="707" selection-end-line="1" selection-end-column="707" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/servlet/entity/ChiTietTour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/xulydattour.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/chi-tiet-tour.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="6" column="112" selection-start-line="6" selection-start-column="112" selection-end-line="6" selection-end-column="112" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/danhsachtourtheoloai.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/servlet/utils/db/TourDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="21" column="63" lean-forward="true" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/servlet/TimKiem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/timkiem.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/bootstrap-datepicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/dattour.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="168" column="53" selection-start-line="168" selection-start-column="39" selection-end-line="168" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/quanlydattour.jsp">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/quanlytour.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="163" column="18" selection-start-line="163" selection-start-column="18" selection-end-line="163" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/servlet/admin/XuLyTourDB/Sua.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/servlet/admin/XuLyTourDB/Xoa.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="51" lean-forward="true" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#7;n#tr#0;n#thead#0;n#table#0;n#!!top" expanded="true" />
-          </folding>
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/servlet/admin/XuLyTourDB/Them.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/servlet/admin/XuLyTour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="102" column="83" selection-start-line="102" selection-start-column="83" selection-end-line="102" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/servlet/admin/ThongTinKhachHang.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="92" column="61" lean-forward="true" selection-start-line="92" selection-start-column="61" selection-end-line="92" selection-end-column="61" />
         </state>
       </provider>
     </entry>

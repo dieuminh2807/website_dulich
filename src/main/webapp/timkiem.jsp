@@ -8,16 +8,23 @@
                 <c:choose>
                     <c:when test="${requestScope.searchResult ne null}">
                         <c:forEach items="${requestScope.searchResult}" var="tour" begin="0" end="8">
-                            <div class="col-4">
+                            <div class="col-4"
+                                 style="min-height: 440px;max-height: 440px;margin-bottom: 20px;width: 345px">
                                 <div class="card">
-                                    <img class="card-img-top" style="min-height: 170px"
-                                         src="${tour.hinhshow}"
-                                         alt="Card image cap">
-                                    <div class="card-body">
+                                    <div class="post-thumb" style="width: 345px">
+                                        <div class="hovereffect1" style="width: 345px"><a
+                                                href="/xemchitiettour?matour=${tour.maTourdb}">
+                                            <img class="card-img-top"
+                                                 style=" min-height: 260px; max-height: 260px"
+                                                 src="../${tour.hinhshow}"/></a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body"><a href="/xemchitiettour?matour=${tour.maTourdb}">
                                         <h5 class="card-title" style="min-height: 50px">${tour.tenTour}</h5>
                                         <p class="card-text">${tour.giavenguoilon} VNĐ</p>
-                                        <a href="/xemchitiettour?matour=${tour.maTourdb}" class="btn btn-primary">Xem chi
-                                            tiết</a>
+                                        <a href="/xemchitiettour?matour=${tour.maTourdb}" class="btn btn-primary">Xem
+                                            chi
+                                            tiết</a></a>
                                     </div>
                                 </div>
                             </div>

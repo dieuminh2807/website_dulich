@@ -19,12 +19,11 @@ public class TourDB {
         if (searchValue == null || searchValue.trim().equals("")) {
             return resultList;
         }
-        String sql = "select * from tour where tenloaitour like ? or tentour like ?";
+        String sql = "select * from tour where tentour like ?";
         Connection con = utils.db.DatabaseUtil.getConnection();
         try {
             PreparedStatement pstm = con.prepareStatement(sql);
             pstm.setString(1, "%" + searchValue + "%");
-            pstm.setString(2, "%" + searchValue + "%");
             ResultSet resultSet = pstm.executeQuery();
 
             while (resultSet.next()) {
